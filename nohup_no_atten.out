@@ -1,0 +1,482 @@
+nohup: ignoring input
+start training at epoch:0
+epoch 0 step 599： loss:0.129987, lr: 0.001000, time: 27.679497sec
+epoch 0 step 1199： loss:0.158329, lr: 0.001000, time: 57.174909sec
+epoch 0 step 1799： loss:0.092499, lr: 0.001000, time: 86.628557sec
+epoch 0 step 2399： loss:0.162659, lr: 0.001000, time: 115.777679sec
+epoch 0 step 2999： loss:0.215916, lr: 0.001000, time: 144.208878sec
+finished epoch 0: loss:0.136, lr: 0.001000, time: 154.804066sec
+eval as epoch:0
+minADE:2.629408, minFDE:5.590214, MissRate:0.856303
+model saved to trained_params/epoch_0.valminade_2.629.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:1
+epoch 1 step 3599： loss:0.132506, lr: 0.001000, time: 19.128091sec
+epoch 1 step 4199： loss:0.130306, lr: 0.001000, time: 48.080176sec
+epoch 1 step 4799： loss:0.129777, lr: 0.001000, time: 77.091745sec
+epoch 1 step 5399： loss:0.162426, lr: 0.001000, time: 107.816946sec
+epoch 1 step 5999： loss:0.083112, lr: 0.001000, time: 138.901912sec
+finished epoch 1: loss:0.124, lr: 0.001000, time: 160.193729sec
+eval as epoch:1
+minADE:2.310190, minFDE:5.032160, MissRate:0.796514
+model saved to trained_params/epoch_1.valminade_2.310.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:2
+epoch 2 step 6599： loss:0.155325, lr: 0.001000, time: 8.183663sec
+epoch 2 step 7199： loss:0.103940, lr: 0.001000, time: 37.633390sec
+epoch 2 step 7799： loss:0.111282, lr: 0.001000, time: 67.269281sec
+epoch 2 step 8399： loss:0.107124, lr: 0.001000, time: 96.492611sec
+epoch 2 step 8999： loss:0.108887, lr: 0.001000, time: 126.287495sec
+epoch 2 step 9599： loss:0.129127, lr: 0.001000, time: 155.892219sec
+finished epoch 2: loss:0.122, lr: 0.001000, time: 158.480558sec
+eval as epoch:2
+minADE:2.397639, minFDE:5.205126, MissRate:0.823444
+start training at epoch:3
+epoch 3 step 10199： loss:0.093764, lr: 0.001000, time: 26.530380sec
+epoch 3 step 10799： loss:0.154586, lr: 0.001000, time: 55.321730sec
+epoch 3 step 11399： loss:0.099751, lr: 0.001000, time: 84.886708sec
+epoch 3 step 11999： loss:0.150775, lr: 0.001000, time: 112.841073sec
+epoch 3 step 12599： loss:0.106645, lr: 0.001000, time: 143.009973sec
+finished epoch 3: loss:0.121, lr: 0.001000, time: 156.537353sec
+eval as epoch:3
+minADE:2.202267, minFDE:4.794090, MissRate:0.775385
+model saved to trained_params/epoch_3.valminade_2.202.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:4
+epoch 4 step 13199： loss:0.082713, lr: 0.001000, time: 16.489063sec
+epoch 4 step 13799： loss:0.111121, lr: 0.001000, time: 46.396008sec
+epoch 4 step 14399： loss:0.108797, lr: 0.001000, time: 74.448925sec
+epoch 4 step 14999： loss:0.118207, lr: 0.001000, time: 101.845091sec
+epoch 4 step 15599： loss:0.098174, lr: 0.001000, time: 130.068789sec
+finished epoch 4: loss:0.120, lr: 0.001000, time: 154.754027sec
+eval as epoch:4
+minADE:2.198512, minFDE:4.813098, MissRate:0.780781
+model saved to trained_params/epoch_4.valminade_2.199.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:5
+epoch 5 step 16199： loss:0.133967, lr: 0.001000, time: 5.942254sec
+epoch 5 step 16799： loss:0.146687, lr: 0.001000, time: 39.208674sec
+epoch 5 step 17399： loss:0.129464, lr: 0.001000, time: 71.558829sec
+epoch 5 step 17999： loss:0.096204, lr: 0.001000, time: 104.973595sec
+epoch 5 step 18599： loss:0.148150, lr: 0.001000, time: 138.923882sec
+epoch 5 step 19199： loss:0.118404, lr: 0.001000, time: 170.441940sec
+finished epoch 5: loss:0.120, lr: 0.001000, time: 178.466402sec
+eval as epoch:5
+minADE:2.191079, minFDE:4.820300, MissRate:0.784353
+model saved to trained_params/epoch_5.valminade_2.191.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:6
+epoch 6 step 19799： loss:0.106723, lr: 0.001000, time: 24.725649sec
+epoch 6 step 20399： loss:0.158532, lr: 0.001000, time: 59.690396sec
+epoch 6 step 20999： loss:0.112551, lr: 0.001000, time: 95.625810sec
+epoch 6 step 21599： loss:0.108538, lr: 0.001000, time: 125.582597sec
+epoch 6 step 22199： loss:0.113477, lr: 0.001000, time: 154.771675sec
+finished epoch 6: loss:0.119, lr: 0.001000, time: 172.458784sec
+eval as epoch:6
+minADE:2.111970, minFDE:4.671474, MissRate:0.756714
+model saved to trained_params/epoch_6.valminade_2.112.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:7
+epoch 7 step 22799： loss:0.133610, lr: 0.001000, time: 13.894916sec
+epoch 7 step 23399： loss:0.138843, lr: 0.001000, time: 44.815116sec
+epoch 7 step 23999： loss:0.129817, lr: 0.001000, time: 76.308513sec
+epoch 7 step 24599： loss:0.119862, lr: 0.001000, time: 110.092677sec
+epoch 7 step 25199： loss:0.102589, lr: 0.001000, time: 143.765409sec
+finished epoch 7: loss:0.119, lr: 0.001000, time: 173.628629sec
+eval as epoch:7
+minADE:2.152781, minFDE:4.744566, MissRate:0.776677
+start training at epoch:8
+epoch 8 step 25799： loss:0.106942, lr: 0.001000, time: 3.168696sec
+epoch 8 step 26399： loss:0.125021, lr: 0.001000, time: 35.915784sec
+epoch 8 step 26999： loss:0.129014, lr: 0.001000, time: 68.362844sec
+epoch 8 step 27599： loss:0.119108, lr: 0.001000, time: 101.713990sec
+epoch 8 step 28199： loss:0.154955, lr: 0.001000, time: 134.854949sec
+epoch 8 step 28799： loss:0.114254, lr: 0.001000, time: 167.317799sec
+finished epoch 8: loss:0.119, lr: 0.001000, time: 175.953616sec
+eval as epoch:8
+minADE:2.217430, minFDE:4.851093, MissRate:0.796767
+start training at epoch:9
+epoch 9 step 29399： loss:0.114408, lr: 0.001000, time: 24.876437sec
+epoch 9 step 29999： loss:0.123103, lr: 0.001000, time: 58.951089sec
+epoch 9 step 30599： loss:0.125361, lr: 0.001000, time: 90.112047sec
+epoch 9 step 31199： loss:0.144410, lr: 0.001000, time: 121.983761sec
+epoch 9 step 31799： loss:0.115642, lr: 0.001000, time: 154.418375sec
+finished epoch 9: loss:0.118, lr: 0.000300, time: 180.010370sec
+eval as epoch:9
+minADE:2.136487, minFDE:4.697132, MissRate:0.793145
+start training at epoch:10
+epoch 10 step 32399： loss:0.106729, lr: 0.000300, time: 11.625544sec
+epoch 10 step 32999： loss:0.089987, lr: 0.000300, time: 45.174594sec
+epoch 10 step 33599： loss:0.099524, lr: 0.000300, time: 80.147793sec
+epoch 10 step 34199： loss:0.090144, lr: 0.000300, time: 111.677630sec
+epoch 10 step 34799： loss:0.099803, lr: 0.000300, time: 143.618195sec
+finished epoch 10: loss:0.116, lr: 0.000300, time: 175.449550sec
+eval as epoch:10
+minADE:2.114129, minFDE:4.658023, MissRate:0.777716
+start training at epoch:11
+epoch 11 step 35399： loss:0.116952, lr: 0.000300, time: 0.134385sec
+epoch 11 step 35999： loss:0.135861, lr: 0.000300, time: 32.801838sec
+epoch 11 step 36599： loss:0.105037, lr: 0.000300, time: 65.552432sec
+epoch 11 step 37199： loss:0.107856, lr: 0.000300, time: 97.084103sec
+epoch 11 step 37799： loss:0.123934, lr: 0.000300, time: 129.587775sec
+epoch 11 step 38399： loss:0.103328, lr: 0.000300, time: 160.968749sec
+finished epoch 11: loss:0.116, lr: 0.000300, time: 172.562602sec
+eval as epoch:11
+minADE:2.064306, minFDE:4.571134, MissRate:0.764415
+model saved to trained_params/epoch_11.valminade_2.064.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:12
+epoch 12 step 38999： loss:0.105938, lr: 0.000300, time: 19.680974sec
+epoch 12 step 39599： loss:0.131861, lr: 0.000300, time: 51.971759sec
+epoch 12 step 40199： loss:0.102725, lr: 0.000300, time: 84.691740sec
+epoch 12 step 40799： loss:0.128476, lr: 0.000300, time: 116.817933sec
+epoch 12 step 41399： loss:0.153065, lr: 0.000300, time: 149.581913sec
+finished epoch 12: loss:0.116, lr: 0.000300, time: 172.328475sec
+eval as epoch:12
+minADE:2.020594, minFDE:4.459179, MissRate:0.734850
+model saved to trained_params/epoch_12.valminade_2.021.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:13
+epoch 13 step 41999： loss:0.079134, lr: 0.000300, time: 8.356701sec
+epoch 13 step 42599： loss:0.109599, lr: 0.000300, time: 37.233674sec
+epoch 13 step 43199： loss:0.120028, lr: 0.000300, time: 65.286651sec
+epoch 13 step 43799： loss:0.124511, lr: 0.000300, time: 93.190937sec
+epoch 13 step 44399： loss:0.137364, lr: 0.000300, time: 122.350147sec
+epoch 13 step 44999： loss:0.118170, lr: 0.000300, time: 150.877937sec
+finished epoch 13: loss:0.116, lr: 0.000300, time: 153.330091sec
+eval as epoch:13
+minADE:2.047355, minFDE:4.576379, MissRate:0.758031
+start training at epoch:14
+epoch 14 step 45599： loss:0.117722, lr: 0.000300, time: 24.801970sec
+epoch 14 step 46199： loss:0.149798, lr: 0.000300, time: 52.657146sec
+epoch 14 step 46799： loss:0.142318, lr: 0.000300, time: 80.426473sec
+epoch 14 step 47399： loss:0.092107, lr: 0.000300, time: 108.253912sec
+epoch 14 step 47999： loss:0.117541, lr: 0.000300, time: 134.804391sec
+finished epoch 14: loss:0.116, lr: 0.000300, time: 147.162996sec
+eval as epoch:14
+minADE:1.992878, minFDE:4.428318, MissRate:0.733634
+model saved to trained_params/epoch_14.valminade_1.993.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:15
+epoch 15 step 48599： loss:0.099002, lr: 0.000300, time: 15.090327sec
+epoch 15 step 49199： loss:0.123465, lr: 0.000300, time: 42.446707sec
+epoch 15 step 49799： loss:0.098843, lr: 0.000300, time: 70.429429sec
+epoch 15 step 50399： loss:0.077004, lr: 0.000300, time: 97.766695sec
+epoch 15 step 50999： loss:0.096838, lr: 0.000300, time: 125.330435sec
+finished epoch 15: loss:0.116, lr: 0.000300, time: 147.546566sec
+eval as epoch:15
+minADE:2.056920, minFDE:4.549943, MissRate:0.751013
+start training at epoch:16
+epoch 16 step 51599： loss:0.101755, lr: 0.000300, time: 5.210196sec
+epoch 16 step 52199： loss:0.122940, lr: 0.000300, time: 32.509277sec
+epoch 16 step 52799： loss:0.074827, lr: 0.000300, time: 59.783968sec
+epoch 16 step 53399： loss:0.113687, lr: 0.000300, time: 87.299231sec
+epoch 16 step 53999： loss:0.107578, lr: 0.000300, time: 114.701266sec
+epoch 16 step 54599： loss:0.116504, lr: 0.000300, time: 141.147660sec
+finished epoch 16: loss:0.116, lr: 0.000300, time: 146.017316sec
+eval as epoch:16
+minADE:2.050187, minFDE:4.534828, MissRate:0.758006
+start training at epoch:17
+epoch 17 step 55199： loss:0.154961, lr: 0.000300, time: 24.566604sec
+epoch 17 step 55799： loss:0.115901, lr: 0.000300, time: 53.229021sec
+epoch 17 step 56399： loss:0.110408, lr: 0.000300, time: 81.412764sec
+epoch 17 step 56999： loss:0.109836, lr: 0.000300, time: 108.497478sec
+epoch 17 step 57599： loss:0.096333, lr: 0.000300, time: 135.267794sec
+finished epoch 17: loss:0.115, lr: 0.000300, time: 150.052878sec
+eval as epoch:17
+minADE:2.192885, minFDE:4.718782, MissRate:0.774777
+start training at epoch:18
+epoch 18 step 58199： loss:0.090936, lr: 0.000300, time: 12.694836sec
+epoch 18 step 58799： loss:0.083522, lr: 0.000300, time: 40.144079sec
+epoch 18 step 59399： loss:0.109747, lr: 0.000300, time: 67.483887sec
+epoch 18 step 59999： loss:0.108116, lr: 0.000300, time: 95.199822sec
+epoch 18 step 60599： loss:0.136885, lr: 0.000300, time: 121.329482sec
+finished epoch 18: loss:0.115, lr: 0.000300, time: 146.146949sec
+eval as epoch:18
+minADE:2.013855, minFDE:4.512726, MissRate:0.747011
+start training at epoch:19
+epoch 19 step 61199： loss:0.112521, lr: 0.000300, time: 2.589184sec
+epoch 19 step 61799： loss:0.148261, lr: 0.000300, time: 29.849786sec
+epoch 19 step 62399： loss:0.131428, lr: 0.000300, time: 57.136434sec
+epoch 19 step 62999： loss:0.106376, lr: 0.000300, time: 84.623402sec
+epoch 19 step 63599： loss:0.115560, lr: 0.000300, time: 112.260622sec
+epoch 19 step 64199： loss:0.101822, lr: 0.000300, time: 139.142306sec
+finished epoch 19: loss:0.115, lr: 0.000090, time: 146.616976sec
+eval as epoch:19
+minADE:2.105365, minFDE:4.618014, MissRate:0.768975
+start training at epoch:20
+epoch 20 step 64799： loss:0.121472, lr: 0.000090, time: 20.098495sec
+epoch 20 step 65399： loss:0.115827, lr: 0.000090, time: 47.972269sec
+epoch 20 step 65999： loss:0.177154, lr: 0.000090, time: 76.157282sec
+epoch 20 step 66599： loss:0.123620, lr: 0.000090, time: 103.279987sec
+epoch 20 step 67199： loss:0.084592, lr: 0.000090, time: 131.750748sec
+finished epoch 20: loss:0.115, lr: 0.000090, time: 149.573207sec
+eval as epoch:20
+minADE:1.991787, minFDE:4.414892, MissRate:0.734850
+model saved to trained_params/epoch_20.valminade_1.992.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:21
+epoch 21 step 67799： loss:0.125307, lr: 0.000090, time: 10.246950sec
+epoch 21 step 68399： loss:0.116002, lr: 0.000090, time: 37.938258sec
+epoch 21 step 68999： loss:0.144662, lr: 0.000090, time: 65.409863sec
+epoch 21 step 69599： loss:0.091775, lr: 0.000090, time: 93.023041sec
+epoch 21 step 70199： loss:0.125230, lr: 0.000090, time: 120.383062sec
+finished epoch 21: loss:0.115, lr: 0.000090, time: 147.586623sec
+eval as epoch:21
+minADE:2.002620, minFDE:4.467478, MissRate:0.747821
+start training at epoch:22
+epoch 22 step 70799： loss:0.113187, lr: 0.000090, time: 0.160756sec
+epoch 22 step 71399： loss:0.104716, lr: 0.000090, time: 27.334472sec
+epoch 22 step 71999： loss:0.093595, lr: 0.000090, time: 55.185163sec
+epoch 22 step 72599： loss:0.117865, lr: 0.000090, time: 82.107928sec
+epoch 22 step 73199： loss:0.114886, lr: 0.000090, time: 108.738169sec
+epoch 22 step 73799： loss:0.151965, lr: 0.000090, time: 135.782627sec
+finished epoch 22: loss:0.115, lr: 0.000090, time: 145.696366sec
+eval as epoch:22
+minADE:1.950502, minFDE:4.350140, MissRate:0.713772
+model saved to trained_params/epoch_22.valminade_1.951.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:23
+epoch 23 step 74399： loss:0.124380, lr: 0.000090, time: 17.376500sec
+epoch 23 step 74999： loss:0.087876, lr: 0.000090, time: 44.500604sec
+epoch 23 step 75599： loss:0.077910, lr: 0.000090, time: 71.593854sec
+epoch 23 step 76199： loss:0.098295, lr: 0.000090, time: 98.604039sec
+epoch 23 step 76799： loss:0.120445, lr: 0.000090, time: 125.599347sec
+finished epoch 23: loss:0.114, lr: 0.000090, time: 145.290286sec
+eval as epoch:23
+minADE:1.959511, minFDE:4.372992, MissRate:0.731202
+start training at epoch:24
+epoch 24 step 77399： loss:0.103764, lr: 0.000090, time: 7.376683sec
+epoch 24 step 77999： loss:0.137039, lr: 0.000090, time: 36.265843sec
+epoch 24 step 78599： loss:0.145085, lr: 0.000090, time: 65.605634sec
+epoch 24 step 79199： loss:0.119373, lr: 0.000090, time: 92.804401sec
+epoch 24 step 79799： loss:0.105258, lr: 0.000090, time: 120.153520sec
+epoch 24 step 80399： loss:0.132136, lr: 0.000090, time: 147.175502sec
+finished epoch 24: loss:0.114, lr: 0.000090, time: 149.389889sec
+eval as epoch:24
+minADE:2.006847, minFDE:4.475288, MissRate:0.744452
+start training at epoch:25
+epoch 25 step 80999： loss:0.096567, lr: 0.000090, time: 25.513696sec
+epoch 25 step 81599： loss:0.133109, lr: 0.000090, time: 52.583566sec
+epoch 25 step 82199： loss:0.089982, lr: 0.000090, time: 79.386805sec
+epoch 25 step 82799： loss:0.164596, lr: 0.000090, time: 106.747900sec
+epoch 25 step 83399： loss:0.102015, lr: 0.000090, time: 133.586053sec
+finished epoch 25: loss:0.114, lr: 0.000090, time: 145.378950sec
+eval as epoch:25
+minADE:2.002664, minFDE:4.447406, MissRate:0.737561
+start training at epoch:26
+epoch 26 step 83999： loss:0.110603, lr: 0.000090, time: 14.962616sec
+epoch 26 step 84599： loss:0.114355, lr: 0.000090, time: 42.731744sec
+epoch 26 step 85199： loss:0.119218, lr: 0.000090, time: 69.353642sec
+epoch 26 step 85799： loss:0.151361, lr: 0.000090, time: 96.104856sec
+epoch 26 step 86399： loss:0.140450, lr: 0.000090, time: 123.152081sec
+finished epoch 26: loss:0.114, lr: 0.000090, time: 145.339244sec
+eval as epoch:26
+minADE:1.977997, minFDE:4.394898, MissRate:0.725324
+start training at epoch:27
+epoch 27 step 86999： loss:0.117189, lr: 0.000090, time: 5.325133sec
+epoch 27 step 87599： loss:0.121802, lr: 0.000090, time: 32.146793sec
+epoch 27 step 88199： loss:0.101985, lr: 0.000090, time: 59.252393sec
+epoch 27 step 88799： loss:0.114424, lr: 0.000090, time: 86.274629sec
+epoch 27 step 89399： loss:0.092437, lr: 0.000090, time: 113.476595sec
+epoch 27 step 89999： loss:0.120112, lr: 0.000090, time: 142.411563sec
+finished epoch 27: loss:0.114, lr: 0.000090, time: 147.535331sec
+eval as epoch:27
+minADE:2.043927, minFDE:4.536820, MissRate:0.750912
+start training at epoch:28
+epoch 28 step 90599： loss:0.123177, lr: 0.000090, time: 23.069150sec
+epoch 28 step 91199： loss:0.090059, lr: 0.000090, time: 49.150716sec
+epoch 28 step 91799： loss:0.166326, lr: 0.000090, time: 77.105170sec
+epoch 28 step 92399： loss:0.085691, lr: 0.000090, time: 104.392107sec
+epoch 28 step 92999： loss:0.153755, lr: 0.000090, time: 131.619483sec
+finished epoch 28: loss:0.114, lr: 0.000090, time: 146.568495sec
+eval as epoch:28
+minADE:1.990282, minFDE:4.427223, MissRate:0.742070
+start training at epoch:29
+epoch 29 step 93599： loss:0.120007, lr: 0.000090, time: 12.654819sec
+epoch 29 step 94199： loss:0.102431, lr: 0.000090, time: 40.001258sec
+epoch 29 step 94799： loss:0.100240, lr: 0.000090, time: 67.560046sec
+epoch 29 step 95399： loss:0.110273, lr: 0.000090, time: 95.636905sec
+epoch 29 step 95999： loss:0.119752, lr: 0.000090, time: 123.214795sec
+finished epoch 29: loss:0.114, lr: 0.000027, time: 147.735301sec
+eval as epoch:29
+minADE:1.974547, minFDE:4.414653, MissRate:0.737789
+start training at epoch:30
+epoch 30 step 96599： loss:0.122585, lr: 0.000027, time: 2.802055sec
+epoch 30 step 97199： loss:0.108728, lr: 0.000027, time: 30.615673sec
+epoch 30 step 97799： loss:0.104412, lr: 0.000027, time: 56.378465sec
+epoch 30 step 98399： loss:0.112571, lr: 0.000027, time: 83.372448sec
+epoch 30 step 98999： loss:0.107517, lr: 0.000027, time: 110.956147sec
+epoch 30 step 99599： loss:0.123402, lr: 0.000027, time: 138.285375sec
+finished epoch 30: loss:0.114, lr: 0.000027, time: 145.698416sec
+eval as epoch:30
+minADE:1.944395, minFDE:4.349448, MissRate:0.719016
+model saved to trained_params/epoch_30.valminade_1.944.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:31
+epoch 31 step 100199： loss:0.117590, lr: 0.000027, time: 20.467194sec
+epoch 31 step 100799： loss:0.094792, lr: 0.000027, time: 48.683011sec
+epoch 31 step 101399： loss:0.096741, lr: 0.000027, time: 77.828130sec
+epoch 31 step 101999： loss:0.088264, lr: 0.000027, time: 105.223688sec
+epoch 31 step 102599： loss:0.135931, lr: 0.000027, time: 132.105667sec
+finished epoch 31: loss:0.114, lr: 0.000027, time: 149.199620sec
+eval as epoch:31
+minADE:1.951191, minFDE:4.363039, MissRate:0.726692
+start training at epoch:32
+epoch 32 step 103199： loss:0.114557, lr: 0.000027, time: 10.302300sec
+epoch 32 step 103799： loss:0.168882, lr: 0.000027, time: 37.569659sec
+epoch 32 step 104399： loss:0.125586, lr: 0.000027, time: 64.553341sec
+epoch 32 step 104999： loss:0.127582, lr: 0.000027, time: 92.059013sec
+epoch 32 step 105599： loss:0.125004, lr: 0.000027, time: 119.097687sec
+finished epoch 32: loss:0.114, lr: 0.000027, time: 146.198728sec
+eval as epoch:32
+minADE:1.967843, minFDE:4.390463, MissRate:0.730645
+start training at epoch:33
+epoch 33 step 106199： loss:0.102910, lr: 0.000027, time: 0.275667sec
+epoch 33 step 106799： loss:0.092961, lr: 0.000027, time: 27.119424sec
+epoch 33 step 107399： loss:0.151263, lr: 0.000027, time: 54.356989sec
+epoch 33 step 107999： loss:0.093310, lr: 0.000027, time: 81.273151sec
+epoch 33 step 108599： loss:0.091482, lr: 0.000027, time: 107.794811sec
+epoch 33 step 109199： loss:0.097683, lr: 0.000027, time: 134.873408sec
+finished epoch 33: loss:0.114, lr: 0.000027, time: 144.517519sec
+eval as epoch:33
+minADE:1.951345, minFDE:4.367108, MissRate:0.726464
+start training at epoch:34
+epoch 34 step 109799： loss:0.083978, lr: 0.000027, time: 17.889250sec
+epoch 34 step 110399： loss:0.079048, lr: 0.000027, time: 43.592607sec
+epoch 34 step 110999： loss:0.122919, lr: 0.000027, time: 71.450753sec
+epoch 34 step 111599： loss:0.094685, lr: 0.000027, time: 98.270332sec
+epoch 34 step 112199： loss:0.105013, lr: 0.000027, time: 125.145393sec
+finished epoch 34: loss:0.114, lr: 0.000027, time: 145.286670sec
+eval as epoch:34
+minADE:1.939402, minFDE:4.343878, MissRate:0.717597
+model saved to trained_params/epoch_34.valminade_1.939.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:35
+epoch 35 step 112799： loss:0.109949, lr: 0.000027, time: 7.817225sec
+epoch 35 step 113399： loss:0.126151, lr: 0.000027, time: 35.483745sec
+epoch 35 step 113999： loss:0.129860, lr: 0.000027, time: 62.610591sec
+epoch 35 step 114599： loss:0.127716, lr: 0.000027, time: 89.898764sec
+epoch 35 step 115199： loss:0.117673, lr: 0.000027, time: 116.767951sec
+epoch 35 step 115799： loss:0.127832, lr: 0.000027, time: 144.181424sec
+finished epoch 35: loss:0.114, lr: 0.000027, time: 146.398810sec
+eval as epoch:35
+minADE:1.969182, minFDE:4.402800, MissRate:0.735863
+start training at epoch:36
+epoch 36 step 116399： loss:0.112907, lr: 0.000027, time: 23.859183sec
+epoch 36 step 116999： loss:0.118434, lr: 0.000027, time: 50.848015sec
+epoch 36 step 117599： loss:0.089866, lr: 0.000027, time: 77.850749sec
+epoch 36 step 118199： loss:0.101124, lr: 0.000027, time: 104.790279sec
+epoch 36 step 118799： loss:0.141676, lr: 0.000027, time: 131.559219sec
+finished epoch 36: loss:0.114, lr: 0.000027, time: 143.386162sec
+eval as epoch:36
+minADE:1.972937, minFDE:4.402101, MissRate:0.731785
+start training at epoch:37
+epoch 37 step 119399： loss:0.110867, lr: 0.000027, time: 15.053614sec
+epoch 37 step 119999： loss:0.114360, lr: 0.000027, time: 42.420390sec
+epoch 37 step 120599： loss:0.134532, lr: 0.000027, time: 69.904434sec
+epoch 37 step 121199： loss:0.156853, lr: 0.000027, time: 97.660207sec
+epoch 37 step 121799： loss:0.121046, lr: 0.000027, time: 124.660514sec
+finished epoch 37: loss:0.114, lr: 0.000027, time: 147.377283sec
+eval as epoch:37
+minADE:1.964544, minFDE:4.405010, MissRate:0.733989
+start training at epoch:38
+epoch 38 step 122399： loss:0.114729, lr: 0.000027, time: 5.251694sec
+epoch 38 step 122999： loss:0.108421, lr: 0.000027, time: 31.129066sec
+epoch 38 step 123599： loss:0.105263, lr: 0.000027, time: 58.675910sec
+epoch 38 step 124199： loss:0.109374, lr: 0.000027, time: 87.513443sec
+epoch 38 step 124799： loss:0.100796, lr: 0.000027, time: 115.615697sec
+epoch 38 step 125399： loss:0.091589, lr: 0.000027, time: 142.777954sec
+finished epoch 38: loss:0.114, lr: 0.000027, time: 147.380037sec
+eval as epoch:38
+minADE:1.952897, minFDE:4.378710, MissRate:0.730062
+start training at epoch:39
+epoch 39 step 125999： loss:0.100443, lr: 0.000027, time: 22.408833sec
+epoch 39 step 126599： loss:0.088720, lr: 0.000027, time: 49.508816sec
+epoch 39 step 127199： loss:0.104638, lr: 0.000027, time: 76.208766sec
+epoch 39 step 127799： loss:0.103378, lr: 0.000027, time: 103.071105sec
+epoch 39 step 128399： loss:0.102859, lr: 0.000027, time: 129.896489sec
+finished epoch 39: loss:0.114, lr: 0.000008, time: 145.106597sec
+eval as epoch:39
+minADE:1.986088, minFDE:4.433985, MissRate:0.742780
+start training at epoch:40
+epoch 40 step 128999： loss:0.142171, lr: 0.000008, time: 11.816822sec
+epoch 40 step 129599： loss:0.161171, lr: 0.000008, time: 38.427512sec
+epoch 40 step 130199： loss:0.079781, lr: 0.000008, time: 65.734904sec
+epoch 40 step 130799： loss:0.138940, lr: 0.000008, time: 92.708220sec
+epoch 40 step 131399： loss:0.089553, lr: 0.000008, time: 119.522063sec
+finished epoch 40: loss:0.114, lr: 0.000008, time: 143.324878sec
+eval as epoch:40
+minADE:1.962494, minFDE:4.387439, MissRate:0.730746
+start training at epoch:41
+epoch 41 step 131999： loss:0.113804, lr: 0.000008, time: 2.773984sec
+epoch 41 step 132599： loss:0.109545, lr: 0.000008, time: 29.742115sec
+epoch 41 step 133199： loss:0.124830, lr: 0.000008, time: 56.871181sec
+epoch 41 step 133799： loss:0.080948, lr: 0.000008, time: 84.096261sec
+epoch 41 step 134399： loss:0.091122, lr: 0.000008, time: 111.001656sec
+epoch 41 step 134999： loss:0.093169, lr: 0.000008, time: 138.658406sec
+finished epoch 41: loss:0.114, lr: 0.000008, time: 145.873609sec
+eval as epoch:41
+minADE:1.950632, minFDE:4.367539, MissRate:0.724944
+start training at epoch:42
+epoch 42 step 135599： loss:0.085951, lr: 0.000008, time: 21.191570sec
+epoch 42 step 136199： loss:0.136483, lr: 0.000008, time: 48.480628sec
+epoch 42 step 136799： loss:0.111106, lr: 0.000008, time: 75.735131sec
+epoch 42 step 137399： loss:0.129362, lr: 0.000008, time: 102.878288sec
+epoch 42 step 137999： loss:0.142885, lr: 0.000008, time: 129.886804sec
+finished epoch 42: loss:0.114, lr: 0.000008, time: 146.396041sec
+eval as epoch:42
+minADE:1.982240, minFDE:4.420955, MissRate:0.737991
+start training at epoch:43
+epoch 43 step 138599： loss:0.105786, lr: 0.000008, time: 10.180218sec
+epoch 43 step 139199： loss:0.096695, lr: 0.000008, time: 37.397915sec
+epoch 43 step 139799： loss:0.107459, lr: 0.000008, time: 65.119557sec
+epoch 43 step 140399： loss:0.129818, lr: 0.000008, time: 92.025916sec
+epoch 43 step 140999： loss:0.128269, lr: 0.000008, time: 119.527319sec
+finished epoch 43: loss:0.114, lr: 0.000008, time: 147.314673sec
+eval as epoch:43
+minADE:1.946377, minFDE:4.358464, MissRate:0.724260
+start training at epoch:44
+epoch 44 step 141599： loss:0.110819, lr: 0.000008, time: 0.334470sec
+epoch 44 step 142199： loss:0.112912, lr: 0.000008, time: 26.834267sec
+epoch 44 step 142799： loss:0.100155, lr: 0.000008, time: 53.702234sec
+epoch 44 step 143399： loss:0.105705, lr: 0.000008, time: 81.593769sec
+epoch 44 step 143999： loss:0.128499, lr: 0.000008, time: 108.947322sec
+epoch 44 step 144599： loss:0.090628, lr: 0.000008, time: 136.239976sec
+finished epoch 44: loss:0.114, lr: 0.000008, time: 145.939820sec
+eval as epoch:44
+minADE:1.974407, minFDE:4.407346, MissRate:0.734723
+start training at epoch:45
+epoch 45 step 145199： loss:0.103614, lr: 0.000008, time: 18.014617sec
+epoch 45 step 145799： loss:0.093215, lr: 0.000008, time: 44.588206sec
+epoch 45 step 146399： loss:0.176012, lr: 0.000008, time: 71.702923sec
+epoch 45 step 146999： loss:0.095437, lr: 0.000008, time: 101.183649sec
+epoch 45 step 147599： loss:0.126103, lr: 0.000008, time: 130.082288sec
+finished epoch 45: loss:0.114, lr: 0.000008, time: 150.606209sec
+eval as epoch:45
+minADE:1.963489, minFDE:4.388810, MissRate:0.729631
+start training at epoch:46
+epoch 46 step 148199： loss:0.102118, lr: 0.000008, time: 8.128763sec
+epoch 46 step 148799： loss:0.114604, lr: 0.000008, time: 35.129436sec
+epoch 46 step 149399： loss:0.119792, lr: 0.000008, time: 62.960813sec
+epoch 46 step 149999： loss:0.115168, lr: 0.000008, time: 89.729764sec
+epoch 46 step 150599： loss:0.124588, lr: 0.000008, time: 116.641815sec
+epoch 46 step 151199： loss:0.078063, lr: 0.000008, time: 143.683509sec
+finished epoch 46: loss:0.114, lr: 0.000008, time: 145.809755sec
+eval as epoch:46
+minADE:1.969859, minFDE:4.401506, MissRate:0.733153
+start training at epoch:47
+epoch 47 step 151799： loss:0.120777, lr: 0.000008, time: 24.801162sec
+epoch 47 step 152399： loss:0.122741, lr: 0.000008, time: 51.878711sec
+epoch 47 step 152999： loss:0.102881, lr: 0.000008, time: 79.123982sec
+epoch 47 step 153599： loss:0.121251, lr: 0.000008, time: 107.391256sec
+epoch 47 step 154199： loss:0.083565, lr: 0.000008, time: 136.235768sec
+finished epoch 47: loss:0.114, lr: 0.000008, time: 147.018726sec
+eval as epoch:47
+minADE:1.975203, minFDE:4.409566, MissRate:0.734774
+start training at epoch:48
+epoch 48 step 154799： loss:0.104040, lr: 0.000008, time: 14.960526sec
+epoch 48 step 155399： loss:0.103644, lr: 0.000008, time: 40.614543sec
+epoch 48 step 155999： loss:0.092324, lr: 0.000008, time: 65.140014sec
+epoch 48 step 156599： loss:0.113145, lr: 0.000008, time: 91.012834sec
+epoch 48 step 157199： loss:0.113476, lr: 0.000008, time: 115.765107sec
+finished epoch 48: loss:0.114, lr: 0.000008, time: 136.173107sec
+eval as epoch:48
+minADE:1.955827, minFDE:4.374097, MissRate:0.727199
+start training at epoch:49
+epoch 49 step 157799： loss:0.099321, lr: 0.000008, time: 5.431989sec
+epoch 49 step 158399： loss:0.097775, lr: 0.000008, time: 33.689359sec
+epoch 49 step 158999： loss:0.115674, lr: 0.000008, time: 59.295248sec
+epoch 49 step 159599： loss:0.105101, lr: 0.000008, time: 83.714242sec
+epoch 49 step 160199： loss:0.132867, lr: 0.000008, time: 107.736408sec
+epoch 49 step 160799： loss:0.106868, lr: 0.000008, time: 133.141295sec
+finished epoch 49: loss:0.114, lr: 0.000002, time: 137.865237sec
+eval as epoch:49
+minADE:1.953635, minFDE:4.370456, MissRate:0.727528

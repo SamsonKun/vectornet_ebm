@@ -1,0 +1,1558 @@
+nohup: ignoring input
+start training at epoch:0
+Langevin prior   1/ 20: energy=   2.085
+Langevin prior   6/ 20: energy=   1.957
+Langevin prior  11/ 20: energy=   1.998
+Langevin prior  16/ 20: energy=   1.643
+Langevin prior  20/ 20: energy=   1.693
+epoch0, step599: dest_loss=8.320143, future_loss=8.177423, total_loss = 27.593357
+        kld=2.251155, cd=0.702616, en_pos=17.556713, en_neg=16.854097, pcd=False, subgoal_reg=0.7223406434059143, time: 58.485937sec 
+Langevin prior   1/ 20: energy=5379.250
+Langevin prior   6/ 20: energy=3544.646
+Langevin prior  11/ 20: energy=2313.243
+Langevin prior  16/ 20: energy=1441.799
+Langevin prior  20/ 20: energy=1057.310
+epoch0, step1199: dest_loss=8.267998, future_loss=7.320754, total_loss = 27.318558
+        kld=1.878713, cd=1.806531, en_pos=14.957943, en_neg=13.151412, pcd=False, subgoal_reg=0.528050422668457, time: 116.746372sec 
+epoch0, step1799: dest_loss=7.173236, future_loss=7.027428, total_loss = 22.673658
+        kld=0.849142, cd=0.398423, en_pos=11.029699, en_neg=10.631276, pcd=False, subgoal_reg=0.3918514549732208, time: 175.118521sec 
+Langevin prior   1/ 20: energy=5251.214
+Langevin prior   6/ 20: energy=3266.289
+Langevin prior  11/ 20: energy=2017.537
+Langevin prior  16/ 20: energy=1116.118
+Langevin prior  20/ 20: energy= 725.093
+epoch0, step2399: dest_loss=7.717776, future_loss=8.630604, total_loss = 25.455574
+        kld=0.906210, cd=0.227033, en_pos=11.532866, en_neg=11.305833, pcd=False, subgoal_reg=0.6186593770980835, time: 234.023265sec 
+epoch0, step2999: dest_loss=7.634166, future_loss=9.076085, total_loss = 23.887392
+        kld=0.841187, cd=-1.463985, en_pos=9.632484, en_neg=11.096470, pcd=False, subgoal_reg=0.5022460222244263, time: 293.885759sec 
+Langevin prior   1/ 20: energy=5152.818
+Langevin prior   6/ 20: energy=3256.586
+Langevin prior  11/ 20: energy=1920.249
+Langevin prior  16/ 20: energy=1014.906
+Langevin prior  20/ 20: energy= 690.758
+finished epoch 0: loss:46.309, lr: 0.001000, time: 315.523918sec
+eval as epoch:0
+minADE:2.720313, minFDE:5.775961, MissRate:0.856025
+model saved to trained_params_ebm/epoch_0.valminade_2.720.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:1
+epoch1, step3599: dest_loss=13.451481, future_loss=12.853310, total_loss = 41.080635
+        kld=0.724336, cd=0.280890, en_pos=10.663513, en_neg=10.382624, pcd=True, subgoal_reg=0.6088730096817017, time: 37.829353sec 
+Langevin prior   1/ 20: energy= 711.443
+Langevin prior   6/ 20: energy= 705.762
+Langevin prior  11/ 20: energy= 720.800
+Langevin prior  16/ 20: energy= 662.186
+Langevin prior  20/ 20: energy= 691.208
+epoch1, step4199: dest_loss=6.459566, future_loss=6.203736, total_loss = 19.515085
+        kld=0.576882, cd=-0.414441, en_pos=11.370212, en_neg=11.784653, pcd=True, subgoal_reg=0.4605308473110199, time: 97.459817sec 
+epoch1, step4799: dest_loss=6.047163, future_loss=6.315988, total_loss = 18.583963
+        kld=0.559599, cd=-0.613091, en_pos=11.023210, en_neg=11.636301, pcd=True, subgoal_reg=0.45097941160202026, time: 156.584272sec 
+Langevin prior   1/ 20: energy= 910.795
+Langevin prior   6/ 20: energy= 814.027
+Langevin prior  11/ 20: energy= 750.901
+Langevin prior  16/ 20: energy= 758.066
+Langevin prior  20/ 20: energy= 811.674
+epoch1, step5399: dest_loss=9.418609, future_loss=9.739608, total_loss = 28.865236
+        kld=0.472796, cd=-0.285554, en_pos=11.850991, en_neg=12.136545, pcd=True, subgoal_reg=0.2902888059616089, time: 215.799496sec 
+epoch1, step5999: dest_loss=8.593859, future_loss=8.604748, total_loss = 27.818235
+        kld=0.495270, cd=1.422038, en_pos=11.872851, en_neg=10.450813, pcd=True, subgoal_reg=0.3065701127052307, time: 275.954166sec 
+Langevin prior   1/ 20: energy= 756.080
+Langevin prior   6/ 20: energy= 727.504
+Langevin prior  11/ 20: energy= 716.325
+Langevin prior  16/ 20: energy= 745.161
+Langevin prior  20/ 20: energy= 772.115
+finished epoch 1: loss:25.625, lr: 0.001000, time: 318.640611sec
+eval as epoch:1
+minADE:2.812526, minFDE:5.906675, MissRate:0.863143
+start training at epoch:2
+epoch2, step6599: dest_loss=11.940408, future_loss=11.823498, total_loss = 36.578506
+        kld=0.472815, cd=0.231032, en_pos=12.479939, en_neg=12.248907, pcd=True, subgoal_reg=0.3594712018966675, time: 16.614704sec 
+Langevin prior   1/ 20: energy= 797.694
+Langevin prior   6/ 20: energy= 747.679
+Langevin prior  11/ 20: energy= 730.847
+Langevin prior  16/ 20: energy= 734.968
+Langevin prior  20/ 20: energy= 728.828
+epoch2, step7199: dest_loss=10.256958, future_loss=11.054049, total_loss = 31.723892
+        kld=0.467953, cd=-0.393551, en_pos=11.318060, en_neg=11.711611, pcd=True, subgoal_reg=0.26870566606521606, time: 76.242931sec 
+epoch2, step7799: dest_loss=6.606655, future_loss=7.093895, total_loss = 20.082174
+        kld=0.484724, cd=-0.836908, en_pos=12.860046, en_neg=13.696955, pcd=True, subgoal_reg=0.32104355096817017, time: 136.011588sec 
+Langevin prior   1/ 20: energy= 930.128
+Langevin prior   6/ 20: energy= 888.966
+Langevin prior  11/ 20: energy= 874.430
+Langevin prior  16/ 20: energy= 830.062
+Langevin prior  20/ 20: energy= 868.072
+epoch2, step8399: dest_loss=10.180933, future_loss=10.471972, total_loss = 32.420479
+        kld=0.478615, cd=0.970966, en_pos=12.527504, en_neg=11.556538, pcd=True, subgoal_reg=0.32850733399391174, time: 196.131057sec 
+epoch2, step8999: dest_loss=4.986081, future_loss=5.086303, total_loss = 16.856405
+        kld=0.457518, cd=1.300376, en_pos=13.481200, en_neg=12.180824, pcd=True, subgoal_reg=0.2230539172887802, time: 255.663853sec 
+Langevin prior   1/ 20: energy= 957.302
+Langevin prior   6/ 20: energy= 903.681
+Langevin prior  11/ 20: energy= 853.666
+Langevin prior  16/ 20: energy= 866.870
+Langevin prior  20/ 20: energy= 913.616
+epoch2, step9599: dest_loss=5.019102, future_loss=5.039794, total_loss = 15.007051
+        kld=0.484252, cd=-0.631858, en_pos=13.576731, en_neg=14.208589, pcd=True, subgoal_reg=0.2703591585159302, time: 314.278443sec 
+finished epoch 2: loss:23.522, lr: 0.001000, time: 319.767826sec
+eval as epoch:2
+minADE:2.376158, minFDE:5.075873, MissRate:0.816021
+model saved to trained_params_ebm/epoch_2.valminade_2.376.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:3
+Langevin prior   1/ 20: energy=1029.290
+Langevin prior   6/ 20: energy= 961.863
+Langevin prior  11/ 20: energy= 991.797
+Langevin prior  16/ 20: energy= 912.917
+Langevin prior  20/ 20: energy= 927.148
+epoch3, step10199: dest_loss=12.431080, future_loss=12.939639, total_loss = 38.517796
+        kld=0.483292, cd=0.228548, en_pos=14.175989, en_neg=13.947441, pcd=True, subgoal_reg=0.19747471809387207, time: 53.366268sec 
+epoch3, step10799: dest_loss=4.559453, future_loss=4.813761, total_loss = 13.014339
+        kld=0.495598, cd=-1.411600, en_pos=13.966892, en_neg=15.378492, pcd=True, subgoal_reg=0.19591404497623444, time: 112.690419sec 
+Langevin prior   1/ 20: energy= 982.348
+Langevin prior   6/ 20: energy= 898.685
+Langevin prior  11/ 20: energy= 966.219
+Langevin prior  16/ 20: energy= 958.107
+Langevin prior  20/ 20: energy= 958.579
+epoch3, step11399: dest_loss=8.311497, future_loss=8.154834, total_loss = 25.947163
+        kld=0.460232, cd=0.656372, en_pos=15.856382, en_neg=15.200010, pcd=True, subgoal_reg=0.23682472109794617, time: 170.911181sec 
+epoch3, step11999: dest_loss=6.649594, future_loss=6.947443, total_loss = 21.586275
+        kld=0.431622, cd=0.916788, en_pos=16.645172, en_neg=15.728384, pcd=True, subgoal_reg=0.16388529539108276, time: 229.650783sec 
+Langevin prior   1/ 20: energy=1081.869
+Langevin prior   6/ 20: energy= 972.606
+Langevin prior  11/ 20: energy=1031.884
+Langevin prior  16/ 20: energy=1044.796
+Langevin prior  20/ 20: energy=1039.669
+epoch3, step12599: dest_loss=5.201978, future_loss=5.162323, total_loss = 15.878131
+        kld=0.495207, cd=-0.268379, en_pos=16.917446, en_neg=17.185825, pcd=True, subgoal_reg=0.2831081748008728, time: 288.276096sec 
+finished epoch 3: loss:22.403, lr: 0.001000, time: 315.318942sec
+eval as epoch:3
+minADE:2.762714, minFDE:5.690795, MissRate:0.862687
+start training at epoch:4
+Langevin prior   1/ 20: energy=1124.042
+Langevin prior   6/ 20: energy=1088.880
+Langevin prior  11/ 20: energy=1109.998
+Langevin prior  16/ 20: energy=1076.264
+Langevin prior  20/ 20: energy=1076.773
+epoch4, step13199: dest_loss=4.496706, future_loss=4.604435, total_loss = 12.756463
+        kld=0.453074, cd=-1.347410, en_pos=16.700766, en_neg=18.048176, pcd=True, subgoal_reg=0.2341824173927307, time: 32.584977sec 
+epoch4, step13799: dest_loss=4.783819, future_loss=4.686952, total_loss = 15.369058
+        kld=0.440596, cd=0.674093, en_pos=17.912849, en_neg=17.238756, pcd=True, subgoal_reg=0.17601549625396729, time: 91.995988sec 
+Langevin prior   1/ 20: energy=1170.688
+Langevin prior   6/ 20: energy=1124.005
+Langevin prior  11/ 20: energy=1084.006
+Langevin prior  16/ 20: energy=1130.854
+Langevin prior  20/ 20: energy=1074.029
+epoch4, step14399: dest_loss=7.844038, future_loss=7.920319, total_loss = 24.711622
+        kld=0.489702, cd=0.654049, en_pos=18.899277, en_neg=18.245228, pcd=True, subgoal_reg=0.15535664558410645, time: 150.172227sec 
+epoch4, step14999: dest_loss=5.308293, future_loss=5.371515, total_loss = 16.816252
+        kld=0.492907, cd=0.255610, en_pos=19.119240, en_neg=18.863630, pcd=True, subgoal_reg=0.27679726481437683, time: 207.547442sec 
+Langevin prior   1/ 20: energy=1285.747
+Langevin prior   6/ 20: energy=1290.506
+Langevin prior  11/ 20: energy=1272.239
+Langevin prior  16/ 20: energy=1228.323
+Langevin prior  20/ 20: energy=1175.114
+epoch4, step15599: dest_loss=10.578758, future_loss=10.649237, total_loss = 32.003952
+        kld=0.484013, cd=-0.252123, en_pos=19.248774, en_neg=19.500896, pcd=True, subgoal_reg=0.15891265869140625, time: 265.860243sec 
+Langevin prior   1/ 20: energy=1276.814
+Langevin prior   6/ 20: energy=1228.263
+Langevin prior  11/ 20: energy=1221.162
+Langevin prior  16/ 20: energy=1233.231
+Langevin prior  20/ 20: energy=1241.082
+finished epoch 4: loss:21.880, lr: 0.001000, time: 314.938744sec
+eval as epoch:4
+minADE:2.544018, minFDE:5.353963, MissRate:0.825750
+start training at epoch:5
+epoch5, step16199: dest_loss=10.752462, future_loss=11.198357, total_loss = 32.905430
+        kld=0.472195, cd=-0.219028, en_pos=20.415512, en_neg=20.634541, pcd=True, subgoal_reg=0.13785754144191742, time: 10.795809sec 
+epoch5, step16799: dest_loss=5.443528, future_loss=5.524302, total_loss = 15.559216
+        kld=0.470131, cd=-1.289686, en_pos=19.491701, en_neg=20.781387, pcd=True, subgoal_reg=0.15546578168869019, time: 70.374488sec 
+Langevin prior   1/ 20: energy=1340.730
+Langevin prior   6/ 20: energy=1263.598
+Langevin prior  11/ 20: energy=1285.947
+Langevin prior  16/ 20: energy=1335.459
+Langevin prior  20/ 20: energy=1284.183
+epoch5, step17399: dest_loss=6.992231, future_loss=7.203912, total_loss = 21.758770
+        kld=0.462468, cd=0.120722, en_pos=20.628246, en_neg=20.507524, pcd=True, subgoal_reg=0.17219391465187073, time: 128.422481sec 
+epoch5, step17999: dest_loss=4.987672, future_loss=5.097743, total_loss = 14.618766
+        kld=0.468040, cd=-0.904589, en_pos=21.133051, en_neg=22.037640, pcd=True, subgoal_reg=0.1694423407316208, time: 187.456634sec 
+Langevin prior   1/ 20: energy=1414.902
+Langevin prior   6/ 20: energy=1418.356
+Langevin prior  11/ 20: energy=1339.658
+Langevin prior  16/ 20: energy=1378.125
+Langevin prior  20/ 20: energy=1420.501
+epoch5, step18599: dest_loss=6.504856, future_loss=6.581413, total_loss = 20.870756
+        kld=0.472233, cd=0.809870, en_pos=22.496738, en_neg=21.686869, pcd=True, subgoal_reg=0.18642112612724304, time: 245.537541sec 
+Langevin prior   1/ 20: energy=1390.512
+Langevin prior   6/ 20: energy=1414.379
+Langevin prior  11/ 20: energy=1353.376
+Langevin prior  16/ 20: energy=1384.018
+Langevin prior  20/ 20: energy=1373.710
+epoch5, step19199: dest_loss=6.416485, future_loss=6.427296, total_loss = 19.833416
+        kld=0.457561, cd=0.156647, en_pos=22.796892, en_neg=22.640245, pcd=True, subgoal_reg=0.14196838438510895, time: 304.192313sec 
+finished epoch 5: loss:21.292, lr: 0.001000, time: 314.746507sec
+eval as epoch:5
+minADE:2.360730, minFDE:5.043706, MissRate:0.807813
+model saved to trained_params_ebm/epoch_5.valminade_2.361.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:6
+epoch6, step19799: dest_loss=6.841824, future_loss=6.881364, total_loss = 21.256544
+        kld=0.463943, cd=0.289503, en_pos=22.899065, en_neg=22.609562, pcd=True, subgoal_reg=0.12366297841072083, time: 48.064526sec 
+Langevin prior   1/ 20: energy=1470.022
+Langevin prior   6/ 20: energy=1457.721
+Langevin prior  11/ 20: energy=1491.487
+Langevin prior  16/ 20: energy=1440.373
+Langevin prior  20/ 20: energy=1422.720
+epoch6, step20399: dest_loss=9.190449, future_loss=9.529298, total_loss = 28.911211
+        kld=0.488308, cd=0.576523, en_pos=23.360254, en_neg=22.783731, pcd=True, subgoal_reg=0.13150933384895325, time: 105.587981sec 
+epoch6, step20999: dest_loss=10.577609, future_loss=11.211807, total_loss = 32.432064
+        kld=0.467276, cd=-0.385330, en_pos=23.102730, en_neg=23.488060, pcd=True, subgoal_reg=0.17000366747379303, time: 164.401832sec 
+Langevin prior   1/ 20: energy=1478.667
+Langevin prior   6/ 20: energy=1440.187
+Langevin prior  11/ 20: energy=1372.720
+Langevin prior  16/ 20: energy=1431.309
+Langevin prior  20/ 20: energy=1430.921
+epoch6, step21599: dest_loss=5.106244, future_loss=5.099218, total_loss = 15.737029
+        kld=0.510635, cd=-0.087986, en_pos=22.610985, en_neg=22.698971, pcd=True, subgoal_reg=0.2069293111562729, time: 222.068209sec 
+Langevin prior   1/ 20: energy=1515.491
+Langevin prior   6/ 20: energy=1494.617
+Langevin prior  11/ 20: energy=1491.317
+Langevin prior  16/ 20: energy=1497.624
+Langevin prior  20/ 20: energy=1553.066
+epoch6, step22199: dest_loss=5.134702, future_loss=5.540567, total_loss = 16.047319
+        kld=0.454056, cd=-0.143539, en_pos=23.134047, en_neg=23.277586, pcd=True, subgoal_reg=0.10845419764518738, time: 279.256236sec 
+finished epoch 6: loss:20.965, lr: 0.001000, time: 310.641241sec
+eval as epoch:6
+minADE:2.346848, minFDE:5.032343, MissRate:0.800796
+model saved to trained_params_ebm/epoch_6.valminade_2.347.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:7
+epoch7, step22799: dest_loss=5.267620, future_loss=5.313728, total_loss = 14.340933
+        kld=0.472881, cd=-1.952530, en_pos=23.452553, en_neg=25.405083, pcd=True, subgoal_reg=0.16076433658599854, time: 26.538637sec 
+Langevin prior   1/ 20: energy=1582.573
+Langevin prior   6/ 20: energy=1492.209
+Langevin prior  11/ 20: energy=1515.626
+Langevin prior  16/ 20: energy=1539.502
+Langevin prior  20/ 20: energy=1561.397
+epoch7, step23399: dest_loss=4.753797, future_loss=4.797976, total_loss = 15.247854
+        kld=0.480591, cd=0.512426, en_pos=24.917810, en_neg=24.405384, pcd=True, subgoal_reg=0.14150448143482208, time: 83.952279sec 
+epoch7, step23999: dest_loss=4.313454, future_loss=4.554077, total_loss = 14.958841
+        kld=0.436666, cd=1.432032, en_pos=24.983179, en_neg=23.551147, pcd=True, subgoal_reg=0.08382497727870941, time: 142.419590sec 
+Langevin prior   1/ 20: energy=1645.066
+Langevin prior   6/ 20: energy=1604.220
+Langevin prior  11/ 20: energy=1559.474
+Langevin prior  16/ 20: energy=1583.434
+Langevin prior  20/ 20: energy=1586.146
+epoch7, step24599: dest_loss=4.618272, future_loss=4.665700, total_loss = 15.386425
+        kld=0.458235, cd=1.088646, en_pos=24.438334, en_neg=23.349688, pcd=True, subgoal_reg=0.12059382349252701, time: 200.061477sec 
+Langevin prior   1/ 20: energy=1585.501
+Langevin prior   6/ 20: energy=1592.148
+Langevin prior  11/ 20: energy=1628.074
+Langevin prior  16/ 20: energy=1575.131
+Langevin prior  20/ 20: energy=1590.378
+epoch7, step25199: dest_loss=5.029880, future_loss=5.247700, total_loss = 16.571829
+        kld=0.442921, cd=0.868254, en_pos=25.615532, en_neg=24.747278, pcd=True, subgoal_reg=0.13036280870437622, time: 257.556846sec 
+finished epoch 7: loss:20.553, lr: 0.001000, time: 309.694113sec
+eval as epoch:7
+minADE:2.596559, minFDE:5.607105, MissRate:0.855366
+start training at epoch:8
+epoch8, step25799: dest_loss=4.561302, future_loss=4.479227, total_loss = 15.645467
+        kld=0.502716, cd=1.609022, en_pos=25.723591, en_neg=24.114569, pcd=True, subgoal_reg=0.1329852193593979, time: 5.863748sec 
+Langevin prior   1/ 20: energy=1652.389
+Langevin prior   6/ 20: energy=1672.778
+Langevin prior  11/ 20: energy=1734.045
+Langevin prior  16/ 20: energy=1660.379
+Langevin prior  20/ 20: energy=1599.438
+epoch8, step26399: dest_loss=6.973204, future_loss=6.999855, total_loss = 20.477516
+        kld=0.494995, cd=-0.899031, en_pos=24.781408, en_neg=25.680439, pcd=True, subgoal_reg=0.13328692317008972, time: 61.993300sec 
+epoch8, step26999: dest_loss=8.655697, future_loss=9.000804, total_loss = 27.514753
+        kld=0.457291, cd=0.763941, en_pos=26.406851, en_neg=25.642910, pcd=True, subgoal_reg=0.16424021124839783, time: 119.471951sec 
+Langevin prior   1/ 20: energy=1704.656
+Langevin prior   6/ 20: energy=1722.901
+Langevin prior  11/ 20: energy=1670.550
+Langevin prior  16/ 20: energy=1646.823
+Langevin prior  20/ 20: energy=1665.381
+epoch8, step27599: dest_loss=6.359025, future_loss=6.229739, total_loss = 21.217871
+        kld=0.493496, cd=1.787498, en_pos=27.906231, en_neg=26.118732, pcd=True, subgoal_reg=0.18648704886436462, time: 177.204212sec 
+Langevin prior   1/ 20: energy=1603.099
+Langevin prior   6/ 20: energy=1650.920
+Langevin prior  11/ 20: energy=1558.701
+Langevin prior  16/ 20: energy=1652.513
+Langevin prior  20/ 20: energy=1645.306
+epoch8, step28199: dest_loss=6.893662, future_loss=7.342447, total_loss = 20.900198
+        kld=0.434175, cd=-0.611893, en_pos=26.115379, en_neg=26.727272, pcd=True, subgoal_reg=0.12181331217288971, time: 235.296215sec 
+epoch8, step28799: dest_loss=4.083269, future_loss=4.057321, total_loss = 12.362761
+        kld=0.460915, cd=-0.253363, en_pos=26.545338, en_neg=26.798700, pcd=True, subgoal_reg=0.11571534723043442, time: 292.304721sec 
+finished epoch 8: loss:20.381, lr: 0.001000, time: 307.983537sec
+eval as epoch:8
+minADE:2.327015, minFDE:4.991783, MissRate:0.825750
+model saved to trained_params_ebm/epoch_8.valminade_2.327.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:9
+Langevin prior   1/ 20: energy=1737.260
+Langevin prior   6/ 20: energy=1648.514
+Langevin prior  11/ 20: energy=1702.956
+Langevin prior  16/ 20: energy=1701.021
+Langevin prior  20/ 20: energy=1737.552
+epoch9, step29399: dest_loss=9.037772, future_loss=9.364368, total_loss = 29.237583
+        kld=0.449442, cd=1.435385, en_pos=27.562107, en_neg=26.126722, pcd=True, subgoal_reg=0.09262039512395859, time: 41.744050sec 
+epoch9, step29999: dest_loss=6.315552, future_loss=6.494791, total_loss = 19.669502
+        kld=0.484837, cd=0.158863, en_pos=26.158577, en_neg=25.999714, pcd=True, subgoal_reg=0.09384404122829437, time: 99.934616sec 
+Langevin prior   1/ 20: energy=1729.437
+Langevin prior   6/ 20: energy=1684.212
+Langevin prior  11/ 20: energy=1662.888
+Langevin prior  16/ 20: energy=1626.266
+Langevin prior  20/ 20: energy=1665.555
+epoch9, step30599: dest_loss=6.816708, future_loss=7.161595, total_loss = 20.724909
+        kld=0.467033, cd=-0.452358, en_pos=26.550648, en_neg=27.003006, pcd=True, subgoal_reg=0.10203661024570465, time: 156.630299sec 
+Langevin prior   1/ 20: energy=1749.893
+Langevin prior   6/ 20: energy=1731.532
+Langevin prior  11/ 20: energy=1679.589
+Langevin prior  16/ 20: energy=1651.033
+Langevin prior  20/ 20: energy=1677.776
+epoch9, step31199: dest_loss=8.311745, future_loss=7.912339, total_loss = 24.156282
+        kld=0.468714, cd=-0.807331, en_pos=27.177708, en_neg=27.985039, pcd=True, subgoal_reg=0.14655669033527374, time: 213.416353sec 
+epoch9, step31799: dest_loss=7.742978, future_loss=7.586291, total_loss = 23.923832
+        kld=0.434790, cd=0.463949, en_pos=27.168880, en_neg=26.704931, pcd=True, subgoal_reg=0.12676164507865906, time: 270.748757sec 
+Langevin prior   1/ 20: energy=1791.388
+Langevin prior   6/ 20: energy=1791.553
+Langevin prior  11/ 20: energy=1747.047
+Langevin prior  16/ 20: energy=1750.463
+Langevin prior  20/ 20: energy=1718.331
+finished epoch 9: loss:20.098, lr: 0.000300, time: 306.730387sec
+eval as epoch:9
+minADE:2.260708, minFDE:4.915614, MissRate:0.802341
+model saved to trained_params_ebm/epoch_9.valminade_2.261.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:10
+epoch10, step32399: dest_loss=7.307570, future_loss=7.425989, total_loss = 22.636944
+        kld=0.462135, cd=0.272026, en_pos=26.496487, en_neg=26.224461, pcd=True, subgoal_reg=0.04650687053799629, time: 21.450606sec 
+epoch10, step32999: dest_loss=5.919480, future_loss=6.222018, total_loss = 17.970018
+        kld=0.461117, cd=-0.410183, en_pos=27.392868, en_neg=27.803051, pcd=True, subgoal_reg=0.04255211353302002, time: 78.934058sec 
+Langevin prior   1/ 20: energy=1695.191
+Langevin prior   6/ 20: energy=1643.600
+Langevin prior  11/ 20: energy=1672.510
+Langevin prior  16/ 20: energy=1694.564
+Langevin prior  20/ 20: energy=1694.217
+epoch10, step33599: dest_loss=11.110552, future_loss=11.510117, total_loss = 32.866383
+        kld=0.445362, cd=-1.171890, en_pos=26.387468, en_neg=27.559359, pcd=True, subgoal_reg=0.03983631730079651, time: 136.989158sec 
+Langevin prior   1/ 20: energy=1733.669
+Langevin prior   6/ 20: energy=1678.020
+Langevin prior  11/ 20: energy=1703.086
+Langevin prior  16/ 20: energy=1666.300
+Langevin prior  20/ 20: energy=1668.174
+epoch10, step34199: dest_loss=5.575302, future_loss=5.807858, total_loss = 17.497705
+        kld=0.457188, cd=0.237568, en_pos=27.012859, en_neg=26.775291, pcd=True, subgoal_reg=0.027362164109945297, time: 194.547476sec 
+epoch10, step34799: dest_loss=5.395436, future_loss=5.634702, total_loss = 17.309265
+        kld=0.460052, cd=0.559423, en_pos=27.153643, en_neg=26.594219, pcd=True, subgoal_reg=0.04823571443557739, time: 252.820848sec 
+Langevin prior   1/ 20: energy=1720.622
+Langevin prior   6/ 20: energy=1777.396
+Langevin prior  11/ 20: energy=1810.935
+Langevin prior  16/ 20: energy=1712.381
+Langevin prior  20/ 20: energy=1728.276
+finished epoch 10: loss:18.401, lr: 0.000300, time: 309.898581sec
+eval as epoch:10
+minADE:2.077629, minFDE:4.582472, MissRate:0.763630
+model saved to trained_params_ebm/epoch_10.valminade_2.078.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:11
+epoch11, step35399: dest_loss=4.194412, future_loss=4.217571, total_loss = 12.406341
+        kld=0.466433, cd=-0.509117, en_pos=27.080299, en_neg=27.589417, pcd=True, subgoal_reg=0.029202859848737717, time: 0.175382sec 
+epoch11, step35999: dest_loss=7.809428, future_loss=8.288832, total_loss = 24.619780
+        kld=0.452368, cd=0.409283, en_pos=27.852917, en_neg=27.443634, pcd=True, subgoal_reg=0.03138735517859459, time: 57.264037sec 
+Langevin prior   1/ 20: energy=1815.422
+Langevin prior   6/ 20: energy=1807.212
+Langevin prior  11/ 20: energy=1787.881
+Langevin prior  16/ 20: energy=1801.151
+Langevin prior  20/ 20: energy=1803.285
+epoch11, step36599: dest_loss=8.235999, future_loss=8.158017, total_loss = 25.125404
+        kld=0.451942, cd=0.180984, en_pos=27.953514, en_neg=27.772530, pcd=True, subgoal_reg=0.0432368740439415, time: 114.744487sec 
+Langevin prior   1/ 20: energy=1756.190
+Langevin prior   6/ 20: energy=1771.739
+Langevin prior  11/ 20: energy=1842.133
+Langevin prior  16/ 20: energy=1803.761
+Langevin prior  20/ 20: energy=1801.914
+epoch11, step37199: dest_loss=5.343598, future_loss=5.350088, total_loss = 15.299026
+        kld=0.456678, cd=-1.044422, en_pos=27.122494, en_neg=28.166916, pcd=True, subgoal_reg=0.03215809911489487, time: 172.265836sec 
+epoch11, step37799: dest_loss=4.502053, future_loss=4.271276, total_loss = 15.209224
+        kld=0.472057, cd=1.599083, en_pos=28.809635, en_neg=27.210552, pcd=True, subgoal_reg=0.05152305215597153, time: 229.126925sec 
+Langevin prior   1/ 20: energy=1828.836
+Langevin prior   6/ 20: energy=1771.990
+Langevin prior  11/ 20: energy=1807.081
+Langevin prior  16/ 20: energy=1755.821
+Langevin prior  20/ 20: energy=1819.969
+epoch11, step38399: dest_loss=5.891778, future_loss=5.821404, total_loss = 19.081728
+        kld=0.444656, cd=1.165928, en_pos=28.668259, en_neg=27.502331, pcd=True, subgoal_reg=0.044046252965927124, time: 284.513599sec 
+finished epoch 11: loss:18.253, lr: 0.000300, time: 304.821665sec
+eval as epoch:11
+minADE:2.144875, minFDE:4.708310, MissRate:0.784049
+start training at epoch:12
+epoch12, step38999: dest_loss=7.694693, future_loss=7.582295, total_loss = 23.826393
+        kld=0.457281, cd=0.540405, en_pos=27.874222, en_neg=27.333817, pcd=True, subgoal_reg=0.03993944823741913, time: 36.502276sec 
+Langevin prior   1/ 20: energy=1766.181
+Langevin prior   6/ 20: energy=1775.111
+Langevin prior  11/ 20: energy=1773.976
+Langevin prior  16/ 20: energy=1795.723
+Langevin prior  20/ 20: energy=1805.081
+epoch12, step39599: dest_loss=4.188729, future_loss=4.226899, total_loss = 12.686596
+        kld=0.445860, cd=-0.215153, en_pos=27.198448, en_neg=27.413601, pcd=True, subgoal_reg=0.029874730855226517, time: 92.275923sec 
+Langevin prior   1/ 20: energy=1774.856
+Langevin prior   6/ 20: energy=1769.811
+Langevin prior  11/ 20: energy=1850.551
+Langevin prior  16/ 20: energy=1777.049
+Langevin prior  20/ 20: energy=1768.268
+epoch12, step40199: dest_loss=4.822731, future_loss=4.979910, total_loss = 15.878215
+        kld=0.453630, cd=0.935316, en_pos=28.546505, en_neg=27.611189, pcd=True, subgoal_reg=0.045348528772592545, time: 148.784549sec 
+epoch12, step40799: dest_loss=5.845019, future_loss=5.974955, total_loss = 15.437840
+        kld=0.458706, cd=-2.531517, en_pos=26.398163, en_neg=28.929680, pcd=True, subgoal_reg=0.029140764847397804, time: 205.244541sec 
+Langevin prior   1/ 20: energy=1822.126
+Langevin prior   6/ 20: energy=1823.835
+Langevin prior  11/ 20: energy=1859.716
+Langevin prior  16/ 20: energy=1796.424
+Langevin prior  20/ 20: energy=1813.877
+epoch12, step41399: dest_loss=8.461748, future_loss=8.698711, total_loss = 25.072012
+        kld=0.465347, cd=-0.862503, en_pos=28.446205, en_neg=29.308708, pcd=True, subgoal_reg=0.033098313957452774, time: 262.413998sec 
+finished epoch 12: loss:18.120, lr: 0.000300, time: 304.220351sec
+eval as epoch:12
+minADE:2.045357, minFDE:4.514506, MissRate:0.745389
+model saved to trained_params_ebm/epoch_12.valminade_2.045.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:13
+epoch13, step41999: dest_loss=6.550878, future_loss=6.747358, total_loss = 21.228678
+        kld=0.460199, cd=1.064774, en_pos=28.884237, en_neg=27.819464, pcd=True, subgoal_reg=0.03867214918136597, time: 15.981835sec 
+Langevin prior   1/ 20: energy=1859.732
+Langevin prior   6/ 20: energy=1822.530
+Langevin prior  11/ 20: energy=1838.313
+Langevin prior  16/ 20: energy=1795.511
+Langevin prior  20/ 20: energy=1821.121
+epoch13, step42599: dest_loss=6.034908, future_loss=6.109638, total_loss = 19.131887
+        kld=0.443195, cd=0.647501, en_pos=29.748997, en_neg=29.101496, pcd=True, subgoal_reg=0.039014630019664764, time: 72.416610sec 
+Langevin prior   1/ 20: energy=1801.416
+Langevin prior   6/ 20: energy=1753.971
+Langevin prior  11/ 20: energy=1795.844
+Langevin prior  16/ 20: energy=1820.042
+Langevin prior  20/ 20: energy=1795.404
+epoch13, step43199: dest_loss=7.046584, future_loss=7.215734, total_loss = 22.668854
+        kld=0.458773, cd=1.037516, en_pos=29.216253, en_neg=28.178738, pcd=True, subgoal_reg=0.04717317596077919, time: 128.615896sec 
+epoch13, step43799: dest_loss=7.351912, future_loss=7.314053, total_loss = 24.494411
+        kld=0.461550, cd=2.168240, en_pos=29.935207, en_neg=27.766968, pcd=True, subgoal_reg=0.03136729449033737, time: 185.552688sec 
+Langevin prior   1/ 20: energy=1866.171
+Langevin prior   6/ 20: energy=1858.550
+Langevin prior  11/ 20: energy=1854.464
+Langevin prior  16/ 20: energy=1821.457
+Langevin prior  20/ 20: energy=1795.839
+epoch13, step44399: dest_loss=4.092392, future_loss=4.093555, total_loss = 11.929435
+        kld=0.453070, cd=-0.655186, en_pos=28.442245, en_neg=29.097431, pcd=True, subgoal_reg=0.03443893790245056, time: 241.351213sec 
+epoch13, step44999: dest_loss=4.852105, future_loss=5.117726, total_loss = 14.901420
+        kld=0.449015, cd=-0.224346, en_pos=27.625454, en_neg=27.849800, pcd=True, subgoal_reg=0.03442055732011795, time: 297.492343sec 
+Langevin prior   1/ 20: energy=1865.355
+Langevin prior   6/ 20: energy=1747.715
+Langevin prior  11/ 20: energy=1775.973
+Langevin prior  16/ 20: energy=1807.243
+Langevin prior  20/ 20: energy=1729.593
+finished epoch 13: loss:18.064, lr: 0.000300, time: 302.326646sec
+eval as epoch:13
+minADE:2.066324, minFDE:4.572593, MissRate:0.760615
+start training at epoch:14
+epoch14, step45599: dest_loss=6.932560, future_loss=6.867179, total_loss = 20.587627
+        kld=0.459761, cd=-0.452845, en_pos=28.301291, en_neg=28.754135, pcd=True, subgoal_reg=0.03231637179851532, time: 51.328471sec 
+Langevin prior   1/ 20: energy=1864.880
+Langevin prior   6/ 20: energy=1897.916
+Langevin prior  11/ 20: energy=1858.516
+Langevin prior  16/ 20: energy=1844.377
+Langevin prior  20/ 20: energy=1860.425
+epoch14, step46199: dest_loss=4.135965, future_loss=4.235212, total_loss = 11.337334
+        kld=0.448048, cd=-1.484680, en_pos=27.986641, en_neg=29.471321, pcd=True, subgoal_reg=0.0460423119366169, time: 107.673074sec 
+epoch14, step46799: dest_loss=6.267941, future_loss=6.427343, total_loss = 19.559965
+        kld=0.453924, cd=0.288376, en_pos=28.725258, en_neg=28.436882, pcd=True, subgoal_reg=0.03601166605949402, time: 163.716247sec 
+Langevin prior   1/ 20: energy=1774.623
+Langevin prior   6/ 20: energy=1788.216
+Langevin prior  11/ 20: energy=1768.280
+Langevin prior  16/ 20: energy=1768.976
+Langevin prior  20/ 20: energy=1776.204
+epoch14, step47399: dest_loss=5.830999, future_loss=6.038690, total_loss = 18.425819
+        kld=0.448910, cd=0.418961, en_pos=28.893957, en_neg=28.474997, pcd=True, subgoal_reg=0.036825794726610184, time: 220.393254sec 
+epoch14, step47999: dest_loss=3.268653, future_loss=3.379979, total_loss = 10.743711
+        kld=0.449156, cd=0.522366, en_pos=29.511131, en_neg=28.988766, pcd=True, subgoal_reg=0.034565821290016174, time: 277.386363sec 
+Langevin prior   1/ 20: energy=1846.750
+Langevin prior   6/ 20: energy=1865.332
+Langevin prior  11/ 20: energy=1766.055
+Langevin prior  16/ 20: energy=1825.036
+Langevin prior  20/ 20: energy=1881.592
+finished epoch 14: loss:17.987, lr: 0.000300, time: 302.811059sec
+eval as epoch:14
+minADE:2.094608, minFDE:4.575317, MissRate:0.757043
+start training at epoch:15
+epoch15, step48599: dest_loss=2.824370, future_loss=2.709943, total_loss = 8.288811
+        kld=0.459866, cd=-0.386368, en_pos=28.993668, en_neg=29.380035, pcd=True, subgoal_reg=0.040576983243227005, time: 30.649678sec 
+Langevin prior   1/ 20: energy=1873.463
+Langevin prior   6/ 20: energy=1886.196
+Langevin prior  11/ 20: energy=1932.505
+Langevin prior  16/ 20: energy=1876.575
+Langevin prior  20/ 20: energy=1893.109
+epoch15, step49199: dest_loss=4.338974, future_loss=4.446652, total_loss = 13.026861
+        kld=0.453629, cd=-0.416782, en_pos=28.345608, en_neg=28.762390, pcd=True, subgoal_reg=0.04686635732650757, time: 87.569673sec 
+epoch15, step49799: dest_loss=3.580307, future_loss=3.665205, total_loss = 11.732533
+        kld=0.454189, cd=0.581884, en_pos=28.814516, en_neg=28.232632, pcd=True, subgoal_reg=0.0523146353662014, time: 143.903678sec 
+Langevin prior   1/ 20: energy=1834.366
+Langevin prior   6/ 20: energy=1863.484
+Langevin prior  11/ 20: energy=1860.402
+Langevin prior  16/ 20: energy=1905.132
+Langevin prior  20/ 20: energy=1910.488
+epoch15, step50399: dest_loss=7.581793, future_loss=7.889168, total_loss = 23.172810
+        kld=0.459761, cd=-0.204893, en_pos=29.085413, en_neg=29.290306, pcd=True, subgoal_reg=0.04909320920705795, time: 198.784351sec 
+epoch15, step50999: dest_loss=7.720744, future_loss=7.611207, total_loss = 23.623537
+        kld=0.454239, cd=0.258461, en_pos=29.425808, en_neg=29.167347, pcd=True, subgoal_reg=0.03983941674232483, time: 255.646551sec 
+Langevin prior   1/ 20: energy=1780.093
+Langevin prior   6/ 20: energy=1832.322
+Langevin prior  11/ 20: energy=1842.875
+Langevin prior  16/ 20: energy=1867.127
+Langevin prior  20/ 20: energy=1815.682
+finished epoch 15: loss:17.933, lr: 0.000300, time: 300.701652sec
+eval as epoch:15
+minADE:2.082238, minFDE:4.594445, MissRate:0.756739
+start training at epoch:16
+epoch16, step51599: dest_loss=7.581567, future_loss=7.775101, total_loss = 24.151258
+        kld=0.465944, cd=0.895872, en_pos=29.417927, en_neg=28.522055, pcd=True, subgoal_reg=0.037586525082588196, time: 10.217055sec 
+Langevin prior   1/ 20: energy=1879.807
+Langevin prior   6/ 20: energy=1882.934
+Langevin prior  11/ 20: energy=1851.796
+Langevin prior  16/ 20: energy=1863.163
+Langevin prior  20/ 20: energy=1831.727
+epoch16, step52199: dest_loss=7.901229, future_loss=8.128409, total_loss = 23.299837
+        kld=0.446445, cd=-0.945007, en_pos=27.999424, en_neg=28.944431, pcd=True, subgoal_reg=0.04610825330018997, time: 66.045199sec 
+epoch16, step52799: dest_loss=6.694842, future_loss=7.237568, total_loss = 20.281378
+        kld=0.453518, cd=-0.669706, en_pos=29.267281, en_neg=29.936987, pcd=True, subgoal_reg=0.05172249674797058, time: 122.886187sec 
+Langevin prior   1/ 20: energy=1885.950
+Langevin prior   6/ 20: energy=1883.631
+Langevin prior  11/ 20: energy=1791.823
+Langevin prior  16/ 20: energy=1785.824
+Langevin prior  20/ 20: energy=1797.193
+epoch16, step53399: dest_loss=7.204282, future_loss=7.377438, total_loss = 21.204781
+        kld=0.456423, cd=-0.900928, en_pos=28.254150, en_neg=29.155079, pcd=True, subgoal_reg=0.045853618532419205, time: 179.309193sec 
+epoch16, step53999: dest_loss=10.282766, future_loss=10.350821, total_loss = 32.223030
+        kld=0.460028, cd=0.986706, en_pos=29.207737, en_neg=28.221031, pcd=True, subgoal_reg=0.04395165666937828, time: 235.653893sec 
+Langevin prior   1/ 20: energy=1844.178
+Langevin prior   6/ 20: energy=1824.605
+Langevin prior  11/ 20: energy=1851.759
+Langevin prior  16/ 20: energy=1838.323
+Langevin prior  20/ 20: energy=1866.618
+epoch16, step54599: dest_loss=3.771882, future_loss=3.773901, total_loss = 10.905098
+        kld=0.466057, cd=-0.723707, en_pos=28.328289, en_neg=29.051996, pcd=True, subgoal_reg=0.03150603547692299, time: 292.147567sec 
+finished epoch 16: loss:17.858, lr: 0.000300, time: 302.304792sec
+eval as epoch:16
+minADE:2.139166, minFDE:4.633536, MissRate:0.765505
+start training at epoch:17
+Langevin prior   1/ 20: energy=1870.062
+Langevin prior   6/ 20: energy=1888.182
+Langevin prior  11/ 20: energy=1894.869
+Langevin prior  16/ 20: energy=1891.061
+Langevin prior  20/ 20: energy=1906.864
+epoch17, step55199: dest_loss=8.669338, future_loss=8.903187, total_loss = 25.946104
+        kld=0.458223, cd=-0.608299, en_pos=28.774731, en_neg=29.383030, pcd=True, subgoal_reg=0.03760529309511185, time: 46.332872sec 
+epoch17, step55799: dest_loss=11.320479, future_loss=11.557058, total_loss = 36.840828
+        kld=0.456713, cd=2.336079, en_pos=30.268162, en_neg=27.932083, pcd=True, subgoal_reg=0.03270404785871506, time: 101.448604sec 
+Langevin prior   1/ 20: energy=1791.458
+Langevin prior   6/ 20: energy=1887.725
+Langevin prior  11/ 20: energy=1893.303
+Langevin prior  16/ 20: energy=1895.262
+Langevin prior  20/ 20: energy=1867.122
+epoch17, step56399: dest_loss=7.333167, future_loss=7.416537, total_loss = 22.619310
+        kld=0.445297, cd=0.219860, en_pos=29.243612, en_neg=29.023752, pcd=True, subgoal_reg=0.0494028776884079, time: 156.876852sec 
+epoch17, step56999: dest_loss=10.965021, future_loss=11.462405, total_loss = 34.223366
+        kld=0.461082, cd=0.503622, en_pos=29.198063, en_neg=28.694441, pcd=True, subgoal_reg=0.050645455718040466, time: 212.279187sec 
+Langevin prior   1/ 20: energy=1846.955
+Langevin prior   6/ 20: energy=1871.870
+Langevin prior  11/ 20: energy=1796.262
+Langevin prior  16/ 20: energy=1839.746
+Langevin prior  20/ 20: energy=1864.131
+epoch17, step57599: dest_loss=4.133447, future_loss=4.162419, total_loss = 12.474121
+        kld=0.453705, cd=-0.266506, en_pos=28.143852, en_neg=28.410358, pcd=True, subgoal_reg=0.039091020822525024, time: 267.914985sec 
+finished epoch 17: loss:17.820, lr: 0.000300, time: 297.936883sec
+eval as epoch:17
+minADE:2.082872, minFDE:4.536076, MissRate:0.753167
+start training at epoch:18
+Langevin prior   1/ 20: energy=1885.817
+Langevin prior   6/ 20: energy=1888.181
+Langevin prior  11/ 20: energy=1890.503
+Langevin prior  16/ 20: energy=1859.490
+Langevin prior  20/ 20: energy=1858.347
+epoch18, step58199: dest_loss=5.998131, future_loss=5.999112, total_loss = 18.313103
+        kld=0.448235, cd=0.013577, en_pos=28.275562, en_neg=28.261986, pcd=True, subgoal_reg=0.035211313515901566, time: 25.638503sec 
+epoch18, step58799: dest_loss=7.861092, future_loss=8.003288, total_loss = 23.480585
+        kld=0.455526, cd=-0.560537, en_pos=28.254089, en_neg=28.814627, pcd=True, subgoal_reg=0.04233499616384506, time: 82.354522sec 
+Langevin prior   1/ 20: energy=1895.942
+Langevin prior   6/ 20: energy=1913.639
+Langevin prior  11/ 20: energy=1896.747
+Langevin prior  16/ 20: energy=1877.504
+Langevin prior  20/ 20: energy=1903.974
+epoch18, step59399: dest_loss=7.442072, future_loss=7.742927, total_loss = 23.829132
+        kld=0.448742, cd=0.893774, en_pos=29.307005, en_neg=28.413231, pcd=True, subgoal_reg=0.03904205933213234, time: 138.756672sec 
+epoch18, step59999: dest_loss=4.174187, future_loss=4.323817, total_loss = 12.439312
+        kld=0.461826, cd=-0.550495, en_pos=28.386814, en_neg=28.937309, pcd=True, subgoal_reg=0.04051929712295532, time: 194.203493sec 
+Langevin prior   1/ 20: energy=1766.287
+Langevin prior   6/ 20: energy=1812.379
+Langevin prior  11/ 20: energy=1810.294
+Langevin prior  16/ 20: energy=1832.949
+Langevin prior  20/ 20: energy=1845.111
+epoch18, step60599: dest_loss=4.661911, future_loss=4.885041, total_loss = 13.695420
+        kld=0.456251, cd=-0.826786, en_pos=28.869724, en_neg=29.696510, pcd=True, subgoal_reg=0.03959333896636963, time: 250.957957sec 
+Langevin prior   1/ 20: energy=1890.315
+Langevin prior   6/ 20: energy=1841.432
+Langevin prior  11/ 20: energy=1874.349
+Langevin prior  16/ 20: energy=1860.553
+Langevin prior  20/ 20: energy=1930.742
+finished epoch 18: loss:17.758, lr: 0.000300, time: 301.217514sec
+eval as epoch:18
+minADE:2.067304, minFDE:4.573876, MissRate:0.763098
+start training at epoch:19
+epoch19, step61199: dest_loss=7.589420, future_loss=7.440259, total_loss = 23.526226
+        kld=0.460730, cd=0.593147, en_pos=29.441914, en_neg=28.848766, pcd=True, subgoal_reg=0.037541650235652924, time: 5.308714sec 
+epoch19, step61799: dest_loss=8.469004, future_loss=8.447553, total_loss = 25.546087
+        kld=0.458530, cd=-0.155512, en_pos=28.954597, en_neg=29.110109, pcd=True, subgoal_reg=0.040922023355960846, time: 59.311537sec 
+Langevin prior   1/ 20: energy=1809.272
+Langevin prior   6/ 20: energy=1851.869
+Langevin prior  11/ 20: energy=1801.952
+Langevin prior  16/ 20: energy=1856.438
+Langevin prior  20/ 20: energy=1868.086
+epoch19, step62399: dest_loss=5.064331, future_loss=5.006127, total_loss = 15.360140
+        kld=0.458097, cd=-0.088205, en_pos=28.957508, en_neg=29.045713, pcd=True, subgoal_reg=0.03869728744029999, time: 116.628313sec 
+epoch19, step62999: dest_loss=4.085818, future_loss=4.247909, total_loss = 12.452385
+        kld=0.446787, cd=-0.272911, en_pos=28.864815, en_neg=29.137726, pcd=True, subgoal_reg=0.03767888620495796, time: 173.248042sec 
+Langevin prior   1/ 20: energy=1853.308
+Langevin prior   6/ 20: energy=1798.071
+Langevin prior  11/ 20: energy=1817.693
+Langevin prior  16/ 20: energy=1821.855
+Langevin prior  20/ 20: energy=1863.167
+epoch19, step63599: dest_loss=3.797766, future_loss=3.758904, total_loss = 11.456716
+        kld=0.449471, cd=-0.203672, en_pos=28.665030, en_neg=28.868702, pcd=True, subgoal_reg=0.03627079725265503, time: 229.191055sec 
+Langevin prior   1/ 20: energy=1856.501
+Langevin prior   6/ 20: energy=1798.314
+Langevin prior  11/ 20: energy=1875.473
+Langevin prior  16/ 20: energy=1832.764
+Langevin prior  20/ 20: energy=1847.664
+epoch19, step64199: dest_loss=7.544924, future_loss=7.754310, total_loss = 23.715750
+        kld=0.452480, cd=0.570930, en_pos=29.714653, en_neg=29.143723, pcd=True, subgoal_reg=0.029173560440540314, time: 285.546838sec 
+finished epoch 19: loss:17.713, lr: 0.000090, time: 300.806314sec
+eval as epoch:19
+minADE:2.112486, minFDE:4.687335, MissRate:0.773080
+start training at epoch:20
+epoch20, step64799: dest_loss=4.225326, future_loss=4.341048, total_loss = 12.757026
+        kld=0.450113, cd=-0.326385, en_pos=29.063328, en_neg=29.389713, pcd=True, subgoal_reg=0.02164478227496147, time: 40.947016sec 
+Langevin prior   1/ 20: energy=1933.901
+Langevin prior   6/ 20: energy=1926.248
+Langevin prior  11/ 20: energy=1863.665
+Langevin prior  16/ 20: energy=1900.418
+Langevin prior  20/ 20: energy=1947.287
+epoch20, step65399: dest_loss=4.159281, future_loss=4.147326, total_loss = 12.953547
+        kld=0.456064, cd=0.193027, en_pos=29.512917, en_neg=29.319889, pcd=True, subgoal_reg=0.02099250629544258, time: 97.176705sec 
+epoch20, step65999: dest_loss=7.577293, future_loss=7.955690, total_loss = 23.942698
+        kld=0.455498, cd=0.533375, en_pos=30.064087, en_neg=29.530712, pcd=True, subgoal_reg=0.025747966021299362, time: 153.634095sec 
+Langevin prior   1/ 20: energy=1890.063
+Langevin prior   6/ 20: energy=1819.074
+Langevin prior  11/ 20: energy=1819.858
+Langevin prior  16/ 20: energy=1789.367
+Langevin prior  20/ 20: energy=1833.004
+epoch20, step66599: dest_loss=9.405632, future_loss=9.666836, total_loss = 29.159595
+        kld=0.458778, cd=0.389360, en_pos=28.917461, en_neg=28.528101, pcd=True, subgoal_reg=0.01686810702085495, time: 209.875236sec 
+Langevin prior   1/ 20: energy=1837.541
+Langevin prior   6/ 20: energy=1876.991
+Langevin prior  11/ 20: energy=1881.300
+Langevin prior  16/ 20: energy=1894.729
+Langevin prior  20/ 20: energy=1896.285
+epoch20, step67199: dest_loss=4.530970, future_loss=4.606962, total_loss = 14.723802
+        kld=0.451374, cd=0.765591, en_pos=29.556980, en_neg=28.791389, pcd=True, subgoal_reg=0.01848389022052288, time: 266.065153sec 
+finished epoch 20: loss:17.152, lr: 0.000090, time: 302.283844sec
+eval as epoch:20
+minADE:2.000894, minFDE:4.440855, MissRate:0.740424
+model saved to trained_params_ebm/epoch_20.valminade_2.001.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:21
+epoch21, step67799: dest_loss=6.321656, future_loss=6.468076, total_loss = 19.414017
+        kld=0.451447, cd=0.012899, en_pos=29.216503, en_neg=29.203604, pcd=True, subgoal_reg=0.018860284239053726, time: 20.986694sec 
+Langevin prior   1/ 20: energy=1893.014
+Langevin prior   6/ 20: energy=1912.502
+Langevin prior  11/ 20: energy=1818.317
+Langevin prior  16/ 20: energy=1841.848
+Langevin prior  20/ 20: energy=1841.314
+epoch21, step68399: dest_loss=7.490750, future_loss=7.491477, total_loss = 23.103462
+        kld=0.459942, cd=0.337563, en_pos=29.111731, en_neg=28.774168, pcd=True, subgoal_reg=0.016957096755504608, time: 77.872125sec 
+epoch21, step68999: dest_loss=10.126467, future_loss=10.618092, total_loss = 33.504097
+        kld=0.449995, cd=2.341721, en_pos=30.654045, en_neg=28.312325, pcd=True, subgoal_reg=0.021354518830776215, time: 133.944058sec 
+Langevin prior   1/ 20: energy=1875.703
+Langevin prior   6/ 20: energy=1907.436
+Langevin prior  11/ 20: energy=1866.798
+Langevin prior  16/ 20: energy=1826.987
+Langevin prior  20/ 20: energy=1809.650
+epoch21, step69599: dest_loss=4.986071, future_loss=5.130151, total_loss = 15.243557
+        kld=0.456528, cd=-0.157076, en_pos=29.029825, en_neg=29.186901, pcd=True, subgoal_reg=0.024424195289611816, time: 190.179515sec 
+Langevin prior   1/ 20: energy=1862.953
+Langevin prior   6/ 20: energy=1901.423
+Langevin prior  11/ 20: energy=1831.852
+Langevin prior  16/ 20: energy=1822.891
+Langevin prior  20/ 20: energy=1816.428
+epoch21, step70199: dest_loss=6.541011, future_loss=6.551646, total_loss = 19.037743
+        kld=0.450411, cd=-0.894291, en_pos=28.707821, en_neg=29.602112, pcd=True, subgoal_reg=0.02811945602297783, time: 246.898758sec 
+finished epoch 21: loss:17.101, lr: 0.000090, time: 303.352920sec
+eval as epoch:21
+minADE:2.014520, minFDE:4.452418, MissRate:0.744021
+start training at epoch:22
+epoch22, step70799: dest_loss=5.012861, future_loss=5.030991, total_loss = 15.731462
+        kld=0.451309, cd=0.380692, en_pos=29.192795, en_neg=28.812103, pcd=True, subgoal_reg=0.023272473365068436, time: 0.316990sec 
+Langevin prior   1/ 20: energy=1850.027
+Langevin prior   6/ 20: energy=1860.476
+Langevin prior  11/ 20: energy=1837.012
+Langevin prior  16/ 20: energy=1861.247
+Langevin prior  20/ 20: energy=1848.970
+epoch22, step71399: dest_loss=5.179095, future_loss=5.120126, total_loss = 15.791866
+        kld=0.453699, cd=0.018068, en_pos=29.015781, en_neg=28.997713, pcd=True, subgoal_reg=0.02326226979494095, time: 56.442177sec 
+epoch22, step71999: dest_loss=5.091388, future_loss=5.315764, total_loss = 14.879101
+        kld=0.450592, cd=-0.911070, en_pos=29.714296, en_neg=30.625366, pcd=True, subgoal_reg=0.021274447441101074, time: 112.803290sec 
+Langevin prior   1/ 20: energy=1881.136
+Langevin prior   6/ 20: energy=1854.723
+Langevin prior  11/ 20: energy=1819.794
+Langevin prior  16/ 20: energy=1842.149
+Langevin prior  20/ 20: energy=1803.235
+epoch22, step72599: dest_loss=7.003763, future_loss=7.136766, total_loss = 20.381237
+        kld=0.448277, cd=-1.054039, en_pos=28.905476, en_neg=29.959515, pcd=True, subgoal_reg=0.022016149014234543, time: 168.600432sec 
+Langevin prior   1/ 20: energy=1913.200
+Langevin prior   6/ 20: energy=1828.009
+Langevin prior  11/ 20: energy=1826.401
+Langevin prior  16/ 20: energy=1804.884
+Langevin prior  20/ 20: energy=1849.381
+epoch22, step73199: dest_loss=3.305270, future_loss=3.360271, total_loss = 9.759925
+        kld=0.457241, cd=-0.499731, en_pos=29.910393, en_neg=30.410124, pcd=True, subgoal_reg=0.014499939978122711, time: 224.962034sec 
+epoch22, step73799: dest_loss=3.116399, future_loss=3.179157, total_loss = 9.975170
+        kld=0.448545, cd=0.275318, en_pos=28.798691, en_neg=28.523373, pcd=True, subgoal_reg=0.018769770860671997, time: 279.569929sec 
+Langevin prior   1/ 20: energy=1859.216
+Langevin prior   6/ 20: energy=1872.850
+Langevin prior  11/ 20: energy=1894.904
+Langevin prior  16/ 20: energy=1883.027
+Langevin prior  20/ 20: energy=1878.965
+finished epoch 22: loss:17.074, lr: 0.000090, time: 299.822198sec
+eval as epoch:22
+minADE:2.038562, minFDE:4.514236, MissRate:0.756232
+start training at epoch:23
+epoch23, step74399: dest_loss=4.701830, future_loss=4.922589, total_loss = 14.293407
+        kld=0.450235, cd=-0.319048, en_pos=29.228327, en_neg=29.547375, pcd=True, subgoal_reg=0.016065016388893127, time: 35.942151sec 
+epoch23, step74999: dest_loss=4.525624, future_loss=4.594214, total_loss = 13.258361
+        kld=0.461887, cd=-0.683126, en_pos=30.139296, en_neg=30.822422, pcd=True, subgoal_reg=0.01889357902109623, time: 92.189748sec 
+Langevin prior   1/ 20: energy=1833.099
+Langevin prior   6/ 20: energy=1822.855
+Langevin prior  11/ 20: energy=1892.017
+Langevin prior  16/ 20: energy=1895.289
+Langevin prior  20/ 20: energy=1863.959
+epoch23, step75599: dest_loss=8.147234, future_loss=8.209271, total_loss = 23.819077
+        kld=0.449421, cd=-0.981857, en_pos=28.188686, en_neg=29.170544, pcd=True, subgoal_reg=0.02754145860671997, time: 149.187498sec 
+Langevin prior   1/ 20: energy=1824.480
+Langevin prior   6/ 20: energy=1805.737
+Langevin prior  11/ 20: energy=1820.062
+Langevin prior  16/ 20: energy=1812.547
+Langevin prior  20/ 20: energy=1840.055
+epoch23, step76199: dest_loss=4.303909, future_loss=4.501402, total_loss = 12.083908
+        kld=0.455145, cd=-1.320719, en_pos=28.498266, en_neg=29.818985, pcd=True, subgoal_reg=0.022320371121168137, time: 205.098467sec 
+epoch23, step76799: dest_loss=4.522688, future_loss=4.670287, total_loss = 13.643830
+        kld=0.452217, cd=-0.360727, en_pos=28.509665, en_neg=28.870392, pcd=True, subgoal_reg=0.01756375841796398, time: 261.973817sec 
+Langevin prior   1/ 20: energy=1819.379
+Langevin prior   6/ 20: energy=1813.747
+Langevin prior  11/ 20: energy=1821.064
+Langevin prior  16/ 20: energy=1872.485
+Langevin prior  20/ 20: energy=1895.508
+finished epoch 23: loss:17.037, lr: 0.000090, time: 303.254764sec
+eval as epoch:23
+minADE:1.990523, minFDE:4.439710, MissRate:0.741488
+model saved to trained_params_ebm/epoch_23.valminade_1.991.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:24
+epoch24, step77399: dest_loss=4.167716, future_loss=4.344718, total_loss = 14.058539
+        kld=0.454220, cd=1.084696, en_pos=29.636497, en_neg=28.551802, pcd=True, subgoal_reg=0.021160632371902466, time: 15.401706sec 
+epoch24, step77999: dest_loss=18.583437, future_loss=18.911638, total_loss = 57.222855
+        kld=0.451891, cd=0.854158, en_pos=29.400103, en_neg=28.545944, pcd=True, subgoal_reg=0.019048897549510002, time: 72.152631sec 
+Langevin prior   1/ 20: energy=1847.409
+Langevin prior   6/ 20: energy=1856.463
+Langevin prior  11/ 20: energy=1869.822
+Langevin prior  16/ 20: energy=1851.427
+Langevin prior  20/ 20: energy=1844.296
+epoch24, step78599: dest_loss=8.350847, future_loss=8.563910, total_loss = 26.400965
+        kld=0.457212, cd=0.835035, en_pos=30.132324, en_neg=29.297289, pcd=True, subgoal_reg=0.02599574439227581, time: 128.939242sec 
+Langevin prior   1/ 20: energy=1878.353
+Langevin prior   6/ 20: energy=1855.199
+Langevin prior  11/ 20: energy=1920.581
+Langevin prior  16/ 20: energy=1877.859
+Langevin prior  20/ 20: energy=1897.693
+epoch24, step79199: dest_loss=3.714982, future_loss=3.778038, total_loss = 10.912519
+        kld=0.453100, cd=-0.588573, en_pos=29.094143, en_neg=29.682716, pcd=True, subgoal_reg=0.021229863166809082, time: 184.441934sec 
+epoch24, step79799: dest_loss=5.062481, future_loss=5.055003, total_loss = 15.339180
+        kld=0.457651, cd=-0.133909, en_pos=28.751968, en_neg=28.885878, pcd=True, subgoal_reg=0.01853380724787712, time: 238.697763sec 
+Langevin prior   1/ 20: energy=1857.748
+Langevin prior   6/ 20: energy=1864.367
+Langevin prior  11/ 20: energy=1900.030
+Langevin prior  16/ 20: energy=1891.375
+Langevin prior  20/ 20: energy=1889.742
+epoch24, step80399: dest_loss=7.461584, future_loss=7.221057, total_loss = 21.368921
+        kld=0.446455, cd=-1.060537, en_pos=28.890326, en_neg=29.950863, pcd=True, subgoal_reg=0.017359454184770584, time: 295.659395sec 
+finished epoch 24: loss:17.026, lr: 0.000090, time: 300.428266sec
+eval as epoch:24
+minADE:1.973461, minFDE:4.386979, MissRate:0.730112
+model saved to trained_params_ebm/epoch_24.valminade_1.973.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:25
+epoch25, step80999: dest_loss=5.313361, future_loss=5.352881, total_loss = 17.580790
+        kld=0.453876, cd=1.307583, en_pos=30.150251, en_neg=28.842669, pcd=True, subgoal_reg=0.02127699926495552, time: 52.500203sec 
+Langevin prior   1/ 20: energy=1917.470
+Langevin prior   6/ 20: energy=1896.596
+Langevin prior  11/ 20: energy=1870.954
+Langevin prior  16/ 20: energy=1875.668
+Langevin prior  20/ 20: energy=1859.027
+epoch25, step81599: dest_loss=6.013076, future_loss=6.095392, total_loss = 19.850037
+        kld=0.458717, cd=1.427536, en_pos=29.650688, en_neg=28.223152, pcd=True, subgoal_reg=0.025726858526468277, time: 111.428269sec 
+Langevin prior   1/ 20: energy=1826.538
+Langevin prior   6/ 20: energy=1858.703
+Langevin prior  11/ 20: energy=1908.348
+Langevin prior  16/ 20: energy=1855.029
+Langevin prior  20/ 20: energy=1872.666
+epoch25, step82199: dest_loss=7.894619, future_loss=8.301175, total_loss = 24.219427
+        kld=0.448753, cd=-0.158699, en_pos=28.689032, en_neg=28.847731, pcd=True, subgoal_reg=0.01846196874976158, time: 170.570677sec 
+epoch25, step82799: dest_loss=5.724696, future_loss=5.532870, total_loss = 17.225208
+        kld=0.452202, cd=-0.050144, en_pos=29.945850, en_neg=29.995995, pcd=True, subgoal_reg=0.021771077066659927, time: 228.966615sec 
+Langevin prior   1/ 20: energy=1913.951
+Langevin prior   6/ 20: energy=1924.144
+Langevin prior  11/ 20: energy=1844.803
+Langevin prior  16/ 20: energy=1868.222
+Langevin prior  20/ 20: energy=1854.277
+epoch25, step83399: dest_loss=4.338733, future_loss=4.388850, total_loss = 13.087711
+        kld=0.457258, cd=-0.271477, en_pos=29.106762, en_neg=29.378239, pcd=True, subgoal_reg=0.018518518656492233, time: 289.333428sec 
+finished epoch 25: loss:17.003, lr: 0.000090, time: 315.681907sec
+eval as epoch:25
+minADE:1.965553, minFDE:4.376386, MissRate:0.725400
+model saved to trained_params_ebm/epoch_25.valminade_1.966.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:26
+epoch26, step83999: dest_loss=3.331784, future_loss=3.507501, total_loss = 10.239025
+        kld=0.458437, cd=-0.231461, en_pos=28.377190, en_neg=28.608650, pcd=True, subgoal_reg=0.02435353212058544, time: 32.939742sec 
+Langevin prior   1/ 20: energy=1840.008
+Langevin prior   6/ 20: energy=1829.730
+Langevin prior  11/ 20: energy=1834.118
+Langevin prior  16/ 20: energy=1851.475
+Langevin prior  20/ 20: energy=1822.059
+epoch26, step84599: dest_loss=7.091478, future_loss=7.161906, total_loss = 21.254519
+        kld=0.452747, cd=-0.383175, en_pos=28.671936, en_neg=29.055111, pcd=True, subgoal_reg=0.021181073039770126, time: 91.924914sec 
+Langevin prior   1/ 20: energy=1918.738
+Langevin prior   6/ 20: energy=1897.128
+Langevin prior  11/ 20: energy=1882.724
+Langevin prior  16/ 20: energy=1886.334
+Langevin prior  20/ 20: energy=1866.185
+epoch26, step85199: dest_loss=4.182020, future_loss=4.098735, total_loss = 13.709322
+        kld=0.452957, cd=0.944262, en_pos=30.030451, en_neg=29.086189, pcd=True, subgoal_reg=0.03051210194826126, time: 150.450800sec 
+epoch26, step85799: dest_loss=3.340471, future_loss=3.511145, total_loss = 10.550221
+        kld=0.453388, cd=0.066174, en_pos=28.410774, en_neg=28.344601, pcd=True, subgoal_reg=0.019929246976971626, time: 208.672765sec 
+Langevin prior   1/ 20: energy=1856.723
+Langevin prior   6/ 20: energy=1900.126
+Langevin prior  11/ 20: energy=1904.991
+Langevin prior  16/ 20: energy=1930.280
+Langevin prior  20/ 20: energy=1817.581
+epoch26, step86399: dest_loss=5.606951, future_loss=5.685261, total_loss = 16.446697
+        kld=0.454613, cd=-0.752077, en_pos=29.245354, en_neg=29.997431, pcd=True, subgoal_reg=0.026844633743166924, time: 267.363779sec 
+finished epoch 26: loss:16.981, lr: 0.000090, time: 314.579951sec
+eval as epoch:26
+minADE:1.983602, minFDE:4.419654, MissRate:0.738498
+start training at epoch:27
+epoch27, step86999: dest_loss=11.308620, future_loss=11.312963, total_loss = 33.374935
+        kld=0.456299, cd=-0.856478, en_pos=28.776892, en_neg=29.633369, pcd=True, subgoal_reg=0.02743280678987503, time: 10.760585sec 
+Langevin prior   1/ 20: energy=1860.926
+Langevin prior   6/ 20: energy=1847.548
+Langevin prior  11/ 20: energy=1919.915
+Langevin prior  16/ 20: energy=1945.441
+Langevin prior  20/ 20: energy=1906.082
+epoch27, step87599: dest_loss=7.929867, future_loss=7.968338, total_loss = 23.503305
+        kld=0.456043, cd=-0.616924, en_pos=29.156448, en_neg=29.773373, pcd=True, subgoal_reg=0.018532121554017067, time: 69.746466sec 
+Langevin prior   1/ 20: energy=1878.275
+Langevin prior   6/ 20: energy=1951.818
+Langevin prior  11/ 20: energy=1900.099
+Langevin prior  16/ 20: energy=1924.040
+Langevin prior  20/ 20: energy=1902.269
+epoch27, step88199: dest_loss=5.958241, future_loss=6.324875, total_loss = 19.449781
+        kld=0.453951, cd=0.917732, en_pos=30.104748, en_neg=29.187016, pcd=True, subgoal_reg=0.018322601914405823, time: 130.245383sec 
+epoch27, step88799: dest_loss=4.943358, future_loss=4.804523, total_loss = 14.378000
+        kld=0.451630, cd=-0.609047, en_pos=29.196798, en_neg=29.805845, pcd=True, subgoal_reg=0.024828847497701645, time: 186.337788sec 
+Langevin prior   1/ 20: energy=1892.013
+Langevin prior   6/ 20: energy=1906.729
+Langevin prior  11/ 20: energy=1944.648
+Langevin prior  16/ 20: energy=1915.542
+Langevin prior  20/ 20: energy=1936.137
+epoch27, step89399: dest_loss=3.935874, future_loss=3.922845, total_loss = 11.649045
+        kld=0.456938, cd=-0.437199, en_pos=28.889633, en_neg=29.326832, pcd=True, subgoal_reg=0.01748773083090782, time: 243.551297sec 
+epoch27, step89999: dest_loss=3.911066, future_loss=3.998467, total_loss = 12.233894
+        kld=0.451435, cd=0.124405, en_pos=29.037956, en_neg=28.913551, pcd=True, subgoal_reg=0.018030531704425812, time: 305.120858sec 
+Langevin prior   1/ 20: energy=1830.703
+Langevin prior   6/ 20: energy=1851.122
+Langevin prior  11/ 20: energy=1867.544
+Langevin prior  16/ 20: energy=1865.160
+Langevin prior  20/ 20: energy=1853.101
+finished epoch 27: loss:16.959, lr: 0.000090, time: 317.687608sec
+eval as epoch:27
+minADE:2.038344, minFDE:4.499309, MissRate:0.749975
+start training at epoch:28
+epoch28, step90599: dest_loss=6.939975, future_loss=7.201642, total_loss = 20.416744
+        kld=0.453812, cd=-0.956015, en_pos=28.898087, en_neg=29.854101, pcd=True, subgoal_reg=0.018879782408475876, time: 50.041831sec 
+Langevin prior   1/ 20: energy=1904.910
+Langevin prior   6/ 20: energy=1904.580
+Langevin prior  11/ 20: energy=1884.335
+Langevin prior  16/ 20: energy=1884.943
+Langevin prior  20/ 20: energy=1875.413
+epoch28, step91199: dest_loss=6.018029, future_loss=5.655434, total_loss = 19.054302
+        kld=0.452993, cd=1.012272, en_pos=29.805058, en_neg=28.792786, pcd=True, subgoal_reg=0.07874351739883423, time: 110.742690sec 
+epoch28, step91799: dest_loss=6.847227, future_loss=6.769633, total_loss = 20.161028
+        kld=0.456436, cd=-0.595139, en_pos=28.678177, en_neg=29.273315, pcd=True, subgoal_reg=0.01821962743997574, time: 166.312447sec 
+Langevin prior   1/ 20: energy=1850.593
+Langevin prior   6/ 20: energy=1891.911
+Langevin prior  11/ 20: energy=1890.114
+Langevin prior  16/ 20: energy=1857.440
+Langevin prior  20/ 20: energy=1867.280
+epoch28, step92399: dest_loss=5.779137, future_loss=6.027936, total_loss = 18.002361
+        kld=0.456963, cd=0.107025, en_pos=28.930904, en_neg=28.823879, pcd=True, subgoal_reg=0.034948527812957764, time: 221.169916sec 
+epoch28, step92999: dest_loss=10.028834, future_loss=10.097095, total_loss = 29.961449
+        kld=0.453836, cd=-0.484669, en_pos=28.286755, en_neg=28.771423, pcd=True, subgoal_reg=0.01904965564608574, time: 280.658386sec 
+Langevin prior   1/ 20: energy=1923.544
+Langevin prior   6/ 20: energy=1961.154
+Langevin prior  11/ 20: energy=1931.219
+Langevin prior  16/ 20: energy=1908.933
+Langevin prior  20/ 20: energy=1881.161
+finished epoch 28: loss:16.928, lr: 0.000090, time: 313.183516sec
+eval as epoch:28
+minADE:2.018936, minFDE:4.455900, MissRate:0.742704
+start training at epoch:29
+epoch29, step93599: dest_loss=6.229816, future_loss=6.153350, total_loss = 17.681114
+        kld=0.456078, cd=-1.222006, en_pos=28.186399, en_neg=29.408405, pcd=True, subgoal_reg=0.016489900648593903, time: 26.975291sec 
+Langevin prior   1/ 20: energy=1899.679
+Langevin prior   6/ 20: energy=1937.545
+Langevin prior  11/ 20: energy=1872.549
+Langevin prior  16/ 20: energy=1895.953
+Langevin prior  20/ 20: energy=1905.332
+epoch29, step94199: dest_loss=3.772870, future_loss=3.895489, total_loss = 12.800652
+        kld=0.455622, cd=1.065702, en_pos=30.288464, en_neg=29.222761, pcd=True, subgoal_reg=0.020347267389297485, time: 88.830335sec 
+epoch29, step94799: dest_loss=4.443953, future_loss=4.267776, total_loss = 13.121109
+        kld=0.454477, cd=-0.324059, en_pos=28.686966, en_neg=29.011024, pcd=True, subgoal_reg=0.0168001726269722, time: 151.890265sec 
+Langevin prior   1/ 20: energy=1895.290
+Langevin prior   6/ 20: energy=1891.458
+Langevin prior  11/ 20: energy=1838.853
+Langevin prior  16/ 20: energy=1878.121
+Langevin prior  20/ 20: energy=1888.360
+epoch29, step95399: dest_loss=4.217549, future_loss=4.236234, total_loss = 11.893616
+        kld=0.451862, cd=-1.065643, en_pos=29.434727, en_neg=30.500370, pcd=True, subgoal_reg=0.016808152198791504, time: 215.835128sec 
+epoch29, step95999: dest_loss=4.520671, future_loss=4.690181, total_loss = 14.284136
+        kld=0.451864, cd=0.261652, en_pos=29.900759, en_neg=29.639107, pcd=True, subgoal_reg=0.01984230801463127, time: 276.887275sec 
+Langevin prior   1/ 20: energy=1866.119
+Langevin prior   6/ 20: energy=1917.231
+Langevin prior  11/ 20: energy=1869.047
+Langevin prior  16/ 20: energy=1879.251
+Langevin prior  20/ 20: energy=1911.264
+finished epoch 29: loss:16.915, lr: 0.000027, time: 334.130033sec
+eval as epoch:29
+minADE:2.015788, minFDE:4.467244, MissRate:0.748024
+start training at epoch:30
+epoch30, step96599: dest_loss=4.531430, future_loss=4.595667, total_loss = 14.941487
+        kld=0.458319, cd=0.992195, en_pos=30.297466, en_neg=29.305271, pcd=True, subgoal_reg=0.015775037929415703, time: 6.212205sec 
+Langevin prior   1/ 20: energy=1886.361
+Langevin prior   6/ 20: energy=1903.582
+Langevin prior  11/ 20: energy=1909.698
+Langevin prior  16/ 20: energy=1924.697
+Langevin prior  20/ 20: energy=1948.955
+epoch30, step97199: dest_loss=3.448645, future_loss=3.606221, total_loss = 10.952518
+        kld=0.455353, cd=0.161627, en_pos=29.975220, en_neg=29.813593, pcd=True, subgoal_reg=0.014169094152748585, time: 69.587166sec 
+epoch30, step97799: dest_loss=5.037034, future_loss=5.034034, total_loss = 15.259363
+        kld=0.453358, cd=-0.136539, en_pos=29.814392, en_neg=29.950932, pcd=True, subgoal_reg=0.015784742310643196, time: 131.357141sec 
+Langevin prior   1/ 20: energy=1900.425
+Langevin prior   6/ 20: energy=1863.765
+Langevin prior  11/ 20: energy=1865.357
+Langevin prior  16/ 20: energy=1895.881
+Langevin prior  20/ 20: energy=1878.393
+epoch30, step98399: dest_loss=3.852107, future_loss=3.989915, total_loss = 12.368291
+        kld=0.451120, cd=0.388786, en_pos=30.091549, en_neg=29.702763, pcd=True, subgoal_reg=0.014703992754220963, time: 199.219768sec 
+epoch30, step98999: dest_loss=5.478726, future_loss=5.697746, total_loss = 16.420506
+        kld=0.451019, cd=-0.519421, en_pos=28.342503, en_neg=28.861923, pcd=True, subgoal_reg=0.014116338454186916, time: 264.378458sec 
+Langevin prior   1/ 20: energy=1894.772
+Langevin prior   6/ 20: energy=1961.106
+Langevin prior  11/ 20: energy=1891.362
+Langevin prior  16/ 20: energy=1876.075
+Langevin prior  20/ 20: energy=1881.370
+epoch30, step99599: dest_loss=5.214518, future_loss=5.309972, total_loss = 17.602871
+        kld=0.454115, cd=1.578436, en_pos=30.117983, en_neg=28.539547, pcd=True, subgoal_reg=0.012957783415913582, time: 326.208345sec 
+finished epoch 30: loss:16.728, lr: 0.000027, time: 342.988115sec
+eval as epoch:30
+minADE:1.954419, minFDE:4.368801, MissRate:0.730214
+model saved to trained_params_ebm/epoch_30.valminade_1.954.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:31
+Langevin prior   1/ 20: energy=1863.997
+Langevin prior   6/ 20: energy=1895.810
+Langevin prior  11/ 20: energy=1893.702
+Langevin prior  16/ 20: energy=1878.621
+Langevin prior  20/ 20: energy=1886.333
+epoch31, step100199: dest_loss=8.868336, future_loss=8.653176, total_loss = 27.183582
+        kld=0.451895, cd=0.505388, en_pos=29.396023, en_neg=28.890635, pcd=True, subgoal_reg=0.017209773883223534, time: 45.655442sec 
+epoch31, step100799: dest_loss=5.910462, future_loss=6.103584, total_loss = 18.178059
+        kld=0.454342, cd=-0.032438, en_pos=29.877285, en_neg=29.909723, pcd=True, subgoal_reg=0.013383080251514912, time: 109.354427sec 
+Langevin prior   1/ 20: energy=1870.387
+Langevin prior   6/ 20: energy=1965.114
+Langevin prior  11/ 20: energy=1962.792
+Langevin prior  16/ 20: energy=1954.518
+Langevin prior  20/ 20: energy=1954.669
+epoch31, step101399: dest_loss=2.246036, future_loss=2.330502, total_loss = 7.685960
+        kld=0.453335, cd=0.574604, en_pos=29.250732, en_neg=28.676128, pcd=True, subgoal_reg=0.016780946403741837, time: 172.232863sec 
+epoch31, step101999: dest_loss=7.777597, future_loss=7.918227, total_loss = 23.943844
+        kld=0.452520, cd=0.181929, en_pos=29.406567, en_neg=29.224638, pcd=True, subgoal_reg=0.01698089949786663, time: 235.383655sec 
+Langevin prior   1/ 20: energy=1957.938
+Langevin prior   6/ 20: energy=1993.174
+Langevin prior  11/ 20: energy=1934.048
+Langevin prior  16/ 20: energy=1882.851
+Langevin prior  20/ 20: energy=1869.646
+epoch31, step102599: dest_loss=7.902219, future_loss=8.180668, total_loss = 23.486160
+        kld=0.454576, cd=-0.788137, en_pos=29.041027, en_neg=29.829165, pcd=True, subgoal_reg=0.01644456759095192, time: 298.234002sec 
+finished epoch 31: loss:16.715, lr: 0.000027, time: 338.435738sec
+eval as epoch:31
+minADE:1.967147, minFDE:4.392999, MissRate:0.735635
+start training at epoch:32
+Langevin prior   1/ 20: energy=1825.958
+Langevin prior   6/ 20: energy=1917.750
+Langevin prior  11/ 20: energy=1951.938
+Langevin prior  16/ 20: energy=1938.621
+Langevin prior  20/ 20: energy=1841.699
+epoch32, step103199: dest_loss=5.122086, future_loss=5.179605, total_loss = 16.611179
+        kld=0.455383, cd=0.899315, en_pos=29.940849, en_neg=29.041534, pcd=True, subgoal_reg=0.014857863076031208, time: 22.380782sec 
+epoch32, step103799: dest_loss=8.536238, future_loss=8.590430, total_loss = 25.210882
+        kld=0.450235, cd=-0.742542, en_pos=28.500744, en_neg=29.243286, pcd=True, subgoal_reg=0.020376626402139664, time: 80.215213sec 
+Langevin prior   1/ 20: energy=1878.572
+Langevin prior   6/ 20: energy=1874.059
+Langevin prior  11/ 20: energy=1868.022
+Langevin prior  16/ 20: energy=1895.930
+Langevin prior  20/ 20: energy=1910.167
+epoch32, step104399: dest_loss=10.094652, future_loss=10.405428, total_loss = 31.252979
+        kld=0.452736, cd=0.365417, en_pos=29.481125, en_neg=29.115707, pcd=True, subgoal_reg=0.021188456565141678, time: 136.810746sec 
+epoch32, step104999: dest_loss=5.452792, future_loss=5.513141, total_loss = 15.013646
+        kld=0.451359, cd=-1.696617, en_pos=28.444794, en_neg=30.141411, pcd=True, subgoal_reg=0.020722735673189163, time: 193.594671sec 
+Langevin prior   1/ 20: energy=1831.126
+Langevin prior   6/ 20: energy=1831.688
+Langevin prior  11/ 20: energy=1827.949
+Langevin prior  16/ 20: energy=1870.959
+Langevin prior  20/ 20: energy=1843.389
+epoch32, step105599: dest_loss=4.895459, future_loss=4.870517, total_loss = 14.746468
+        kld=0.452860, cd=-0.213934, en_pos=29.856323, en_neg=30.070257, pcd=True, subgoal_reg=0.02725142613053322, time: 247.394791sec 
+Langevin prior   1/ 20: energy=1881.849
+Langevin prior   6/ 20: energy=1854.989
+Langevin prior  11/ 20: energy=1826.024
+Langevin prior  16/ 20: energy=1851.663
+Langevin prior  20/ 20: energy=1879.861
+finished epoch 32: loss:16.711, lr: 0.000027, time: 302.950657sec
+eval as epoch:32
+minADE:1.967444, minFDE:4.382289, MissRate:0.731253
+start training at epoch:33
+epoch33, step106199: dest_loss=4.980808, future_loss=4.992952, total_loss = 14.502090
+        kld=0.450478, cd=-0.741549, en_pos=29.155048, en_neg=29.896597, pcd=True, subgoal_reg=0.018785592168569565, time: 0.562403sec 
+epoch33, step106799: dest_loss=3.739405, future_loss=3.865309, total_loss = 12.170922
+        kld=0.452963, cd=0.542679, en_pos=29.504253, en_neg=28.961575, pcd=True, subgoal_reg=0.01234487071633339, time: 56.379720sec 
+Langevin prior   1/ 20: energy=1892.882
+Langevin prior   6/ 20: energy=1878.009
+Langevin prior  11/ 20: energy=1921.908
+Langevin prior  16/ 20: energy=1844.744
+Langevin prior  20/ 20: energy=1847.779
+epoch33, step107399: dest_loss=7.039819, future_loss=7.033267, total_loss = 21.820892
+        kld=0.454321, cd=0.414001, en_pos=29.022150, en_neg=28.608149, pcd=True, subgoal_reg=0.021394791081547737, time: 113.035888sec 
+epoch33, step107999: dest_loss=5.499701, future_loss=5.664206, total_loss = 16.666130
+        kld=0.451378, cd=-0.279900, en_pos=28.737648, en_neg=29.017548, pcd=True, subgoal_reg=0.011597124859690666, time: 169.300209sec 
+Langevin prior   1/ 20: energy=1916.479
+Langevin prior   6/ 20: energy=1880.450
+Langevin prior  11/ 20: energy=1856.554
+Langevin prior  16/ 20: energy=1913.760
+Langevin prior  20/ 20: energy=1905.113
+epoch33, step108599: dest_loss=4.140004, future_loss=4.268454, total_loss = 13.280035
+        kld=0.451950, cd=0.446589, en_pos=30.513636, en_neg=30.067047, pcd=True, subgoal_reg=0.013816159218549728, time: 225.499258sec 
+Langevin prior   1/ 20: energy=1922.561
+Langevin prior   6/ 20: energy=1888.216
+Langevin prior  11/ 20: energy=1877.149
+Langevin prior  16/ 20: energy=1908.542
+Langevin prior  20/ 20: energy=1882.852
+epoch33, step109199: dest_loss=5.868275, future_loss=6.089176, total_loss = 17.610529
+        kld=0.454161, cd=-0.499111, en_pos=28.896252, en_neg=29.395363, pcd=True, subgoal_reg=0.01141807809472084, time: 280.501794sec 
+finished epoch 33: loss:16.684, lr: 0.000027, time: 300.104174sec
+eval as epoch:33
+minADE:1.962624, minFDE:4.381098, MissRate:0.730290
+start training at epoch:34
+epoch34, step109799: dest_loss=5.054595, future_loss=5.341984, total_loss = 14.766813
+        kld=0.455381, cd=-0.972157, en_pos=29.351139, en_neg=30.323296, pcd=True, subgoal_reg=0.014567053876817226, time: 35.581026sec 
+Langevin prior   1/ 20: energy=1873.290
+Langevin prior   6/ 20: energy=1891.020
+Langevin prior  11/ 20: energy=1870.404
+Langevin prior  16/ 20: energy=1853.651
+Langevin prior  20/ 20: energy=1860.837
+epoch34, step110399: dest_loss=5.546922, future_loss=5.704538, total_loss = 16.850857
+        kld=0.451519, cd=-0.234619, en_pos=29.181622, en_neg=29.416241, pcd=True, subgoal_reg=0.016182444989681244, time: 91.873286sec 
+epoch34, step110999: dest_loss=6.065743, future_loss=6.183144, total_loss = 17.124025
+        kld=0.451401, cd=-1.486118, en_pos=28.654739, en_neg=30.140858, pcd=True, subgoal_reg=0.02467326447367668, time: 148.271178sec 
+Langevin prior   1/ 20: energy=1901.386
+Langevin prior   6/ 20: energy=1931.167
+Langevin prior  11/ 20: energy=1975.562
+Langevin prior  16/ 20: energy=1932.963
+Langevin prior  20/ 20: energy=1839.819
+epoch34, step111599: dest_loss=6.104618, future_loss=6.290315, total_loss = 20.305038
+        kld=0.453524, cd=1.521906, en_pos=29.840065, en_neg=28.318159, pcd=True, subgoal_reg=0.01146608591079712, time: 203.158890sec 
+Langevin prior   1/ 20: energy=1946.150
+Langevin prior   6/ 20: energy=1882.372
+Langevin prior  11/ 20: energy=1808.815
+Langevin prior  16/ 20: energy=1799.541
+Langevin prior  20/ 20: energy=1820.477
+epoch34, step112199: dest_loss=6.637163, future_loss=6.640894, total_loss = 19.520704
+        kld=0.454731, cd=-0.681503, en_pos=29.363220, en_neg=30.044724, pcd=True, subgoal_reg=0.014149811118841171, time: 258.928389sec 
+finished epoch 34: loss:16.688, lr: 0.000027, time: 298.771755sec
+eval as epoch:34
+minADE:1.952491, minFDE:4.359805, MissRate:0.726414
+model saved to trained_params_ebm/epoch_34.valminade_1.952.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:35
+epoch35, step112799: dest_loss=7.830981, future_loss=8.031003, total_loss = 23.427704
+        kld=0.454828, cd=-0.552691, en_pos=29.265629, en_neg=29.818319, pcd=True, subgoal_reg=0.014529508538544178, time: 15.088788sec 
+Langevin prior   1/ 20: energy=1855.683
+Langevin prior   6/ 20: energy=1897.123
+Langevin prior  11/ 20: energy=1957.111
+Langevin prior  16/ 20: energy=1889.917
+Langevin prior  20/ 20: energy=1871.607
+epoch35, step113399: dest_loss=3.984993, future_loss=3.958427, total_loss = 12.605955
+        kld=0.449728, cd=0.391102, en_pos=29.775936, en_neg=29.384834, pcd=True, subgoal_reg=0.01660369336605072, time: 70.554907sec 
+epoch35, step113999: dest_loss=5.929029, future_loss=6.177537, total_loss = 17.276735
+        kld=0.454136, cd=-1.045706, en_pos=28.925331, en_neg=29.971037, pcd=True, subgoal_reg=0.014363596215844154, time: 126.072683sec 
+Langevin prior   1/ 20: energy=1828.399
+Langevin prior   6/ 20: energy=1838.023
+Langevin prior  11/ 20: energy=1869.866
+Langevin prior  16/ 20: energy=1867.613
+Langevin prior  20/ 20: energy=1868.588
+epoch35, step114599: dest_loss=4.943767, future_loss=4.930838, total_loss = 15.780410
+        kld=0.453299, cd=0.676628, en_pos=29.057827, en_neg=28.381199, pcd=True, subgoal_reg=0.013429888524115086, time: 181.856509sec 
+Langevin prior   1/ 20: energy=1917.176
+Langevin prior   6/ 20: energy=1820.489
+Langevin prior  11/ 20: energy=1867.092
+Langevin prior  16/ 20: energy=1901.410
+Langevin prior  20/ 20: energy=1954.400
+epoch35, step115199: dest_loss=6.159354, future_loss=6.312075, total_loss = 18.455862
+        kld=0.454742, cd=-0.459820, en_pos=29.685642, en_neg=30.145462, pcd=True, subgoal_reg=0.012053435668349266, time: 236.227315sec 
+epoch35, step115799: dest_loss=8.101075, future_loss=7.935713, total_loss = 24.461708
+        kld=0.453499, cd=0.019545, en_pos=29.111469, en_neg=29.091925, pcd=True, subgoal_reg=0.03220168501138687, time: 290.673831sec 
+finished epoch 35: loss:16.688, lr: 0.000027, time: 295.222358sec
+eval as epoch:35
+minADE:1.969424, minFDE:4.388294, MissRate:0.735306
+start training at epoch:36
+Langevin prior   1/ 20: energy=1873.474
+Langevin prior   6/ 20: energy=1921.635
+Langevin prior  11/ 20: energy=1859.753
+Langevin prior  16/ 20: energy=1880.194
+Langevin prior  20/ 20: energy=1888.599
+epoch36, step116399: dest_loss=4.022113, future_loss=4.007570, total_loss = 14.156566
+        kld=0.453197, cd=1.817604, en_pos=30.203642, en_neg=28.386038, pcd=True, subgoal_reg=0.015247496776282787, time: 52.062550sec 
+epoch36, step116999: dest_loss=6.240288, future_loss=6.369486, total_loss = 19.248631
+        kld=0.449829, cd=0.115108, en_pos=29.589760, en_neg=29.474651, pcd=True, subgoal_reg=0.013563551008701324, time: 109.487888sec 
+Langevin prior   1/ 20: energy=1942.440
+Langevin prior   6/ 20: energy=1966.374
+Langevin prior  11/ 20: energy=1910.712
+Langevin prior  16/ 20: energy=1854.147
+Langevin prior  20/ 20: energy=1844.838
+epoch36, step117599: dest_loss=4.883202, future_loss=4.944065, total_loss = 15.806753
+        kld=0.452785, cd=0.807137, en_pos=30.246670, en_neg=29.439533, pcd=True, subgoal_reg=0.017476648092269897, time: 166.032238sec 
+Langevin prior   1/ 20: energy=1942.520
+Langevin prior   6/ 20: energy=1900.654
+Langevin prior  11/ 20: energy=1903.796
+Langevin prior  16/ 20: energy=1915.738
+Langevin prior  20/ 20: energy=1892.593
+epoch36, step118199: dest_loss=6.106576, future_loss=6.226045, total_loss = 19.641680
+        kld=0.451618, cd=0.918072, en_pos=30.038574, en_neg=29.120502, pcd=True, subgoal_reg=0.013438339345157146, time: 221.453259sec 
+epoch36, step118799: dest_loss=3.910051, future_loss=4.011675, total_loss = 11.248804
+        kld=0.453493, cd=-0.875648, en_pos=29.247335, en_neg=30.122984, pcd=True, subgoal_reg=0.020579230040311813, time: 277.120463sec 
+Langevin prior   1/ 20: energy=1900.768
+Langevin prior   6/ 20: energy=1902.859
+Langevin prior  11/ 20: energy=1914.935
+Langevin prior  16/ 20: energy=1916.148
+Langevin prior  20/ 20: energy=1870.830
+finished epoch 36: loss:16.661, lr: 0.000027, time: 302.528283sec
+eval as epoch:36
+minADE:1.967525, minFDE:4.384810, MissRate:0.732950
+start training at epoch:37
+epoch37, step119399: dest_loss=4.470712, future_loss=4.362098, total_loss = 13.969391
+        kld=0.452749, cd=0.361204, en_pos=29.347794, en_neg=28.986589, pcd=True, subgoal_reg=0.03301560506224632, time: 30.397601sec 
+epoch37, step119999: dest_loss=4.346276, future_loss=4.451235, total_loss = 13.153256
+        kld=0.452644, cd=-0.275642, en_pos=29.553150, en_neg=29.828793, pcd=True, subgoal_reg=0.013524778187274933, time: 86.156577sec 
+Langevin prior   1/ 20: energy=1875.481
+Langevin prior   6/ 20: energy=1863.881
+Langevin prior  11/ 20: energy=1894.831
+Langevin prior  16/ 20: energy=1876.365
+Langevin prior  20/ 20: energy=1877.238
+epoch37, step120599: dest_loss=4.083591, future_loss=4.214499, total_loss = 11.157131
+        kld=0.452089, cd=-1.513205, en_pos=28.491846, en_neg=30.005051, pcd=True, subgoal_reg=0.017401179298758507, time: 140.046420sec 
+Langevin prior   1/ 20: energy=1902.829
+Langevin prior   6/ 20: energy=1840.166
+Langevin prior  11/ 20: energy=1813.677
+Langevin prior  16/ 20: energy=1881.151
+Langevin prior  20/ 20: energy=1901.270
+epoch37, step121199: dest_loss=6.387984, future_loss=6.660420, total_loss = 18.963068
+        kld=0.451368, cd=-0.756973, en_pos=29.068680, en_neg=29.825653, pcd=True, subgoal_reg=0.012831839732825756, time: 194.274610sec 
+epoch37, step121799: dest_loss=5.146487, future_loss=5.526888, total_loss = 15.943428
+        kld=0.454859, cd=-0.164782, en_pos=29.285637, en_neg=29.450418, pcd=True, subgoal_reg=0.015432771295309067, time: 249.818268sec 
+Langevin prior   1/ 20: energy=1874.871
+Langevin prior   6/ 20: energy=1872.163
+Langevin prior  11/ 20: energy=1869.018
+Langevin prior  16/ 20: energy=1890.717
+Langevin prior  20/ 20: energy=1911.145
+finished epoch 37: loss:16.666, lr: 0.000027, time: 294.150291sec
+eval as epoch:37
+minADE:1.976758, minFDE:4.396720, MissRate:0.734875
+start training at epoch:38
+epoch38, step122399: dest_loss=7.314736, future_loss=7.582274, total_loss = 23.415390
+        kld=0.454214, cd=0.917274, en_pos=29.990616, en_neg=29.073341, pcd=True, subgoal_reg=0.013840829022228718, time: 10.817218sec 
+epoch38, step122999: dest_loss=6.438901, future_loss=6.673706, total_loss = 19.810331
+        kld=0.451548, cd=-0.041399, en_pos=28.977564, en_neg=29.018963, pcd=True, subgoal_reg=0.02929370477795601, time: 66.166139sec 
+Langevin prior   1/ 20: energy=1911.512
+Langevin prior   6/ 20: energy=1887.092
+Langevin prior  11/ 20: energy=1866.433
+Langevin prior  16/ 20: energy=1853.300
+Langevin prior  20/ 20: energy=1928.197
+epoch38, step123599: dest_loss=9.278742, future_loss=9.584750, total_loss = 29.053427
+        kld=0.453588, cd=0.625944, en_pos=29.541546, en_neg=28.915602, pcd=True, subgoal_reg=0.01309345941990614, time: 122.121234sec 
+Langevin prior   1/ 20: energy=1918.240
+Langevin prior   6/ 20: energy=1955.034
+Langevin prior  11/ 20: energy=1959.464
+Langevin prior  16/ 20: energy=1919.693
+Langevin prior  20/ 20: energy=1907.427
+epoch38, step124199: dest_loss=3.947936, future_loss=4.071317, total_loss = 11.852697
+        kld=0.453072, cd=-0.398689, en_pos=29.400911, en_neg=29.799601, pcd=True, subgoal_reg=0.012354752980172634, time: 177.303186sec 
+epoch38, step124799: dest_loss=4.368456, future_loss=4.571259, total_loss = 13.092478
+        kld=0.453856, cd=-0.504932, en_pos=29.151173, en_neg=29.656105, pcd=True, subgoal_reg=0.016925889998674393, time: 232.896852sec 
+Langevin prior   1/ 20: energy=1848.430
+Langevin prior   6/ 20: energy=1901.208
+Langevin prior  11/ 20: energy=1926.762
+Langevin prior  16/ 20: energy=1945.934
+Langevin prior  20/ 20: energy=1910.557
+epoch38, step125399: dest_loss=4.636974, future_loss=4.836289, total_loss = 13.878830
+        kld=0.452625, cd=-0.521059, en_pos=29.766001, en_neg=30.287060, pcd=True, subgoal_reg=0.018076682463288307, time: 287.306262sec 
+finished epoch 38: loss:16.669, lr: 0.000027, time: 296.951722sec
+eval as epoch:38
+minADE:1.968763, minFDE:4.388388, MissRate:0.734977
+start training at epoch:39
+epoch39, step125999: dest_loss=2.911548, future_loss=2.970881, total_loss = 8.302249
+        kld=0.453888, cd=-0.780355, en_pos=29.450733, en_neg=30.231089, pcd=True, subgoal_reg=0.01629379764199257, time: 44.921655sec 
+Langevin prior   1/ 20: energy=1938.046
+Langevin prior   6/ 20: energy=1874.861
+Langevin prior  11/ 20: energy=1931.456
+Langevin prior  16/ 20: energy=1882.236
+Langevin prior  20/ 20: energy=1865.909
+epoch39, step126599: dest_loss=11.719700, future_loss=11.927064, total_loss = 37.620716
+        kld=0.455099, cd=1.964169, en_pos=31.009632, en_neg=29.045464, pcd=True, subgoal_reg=0.017025355249643326, time: 99.158706sec 
+Langevin prior   1/ 20: energy=1893.451
+Langevin prior   6/ 20: energy=1831.169
+Langevin prior  11/ 20: energy=1803.060
+Langevin prior  16/ 20: energy=1827.559
+Langevin prior  20/ 20: energy=1866.671
+epoch39, step127199: dest_loss=7.061563, future_loss=7.184245, total_loss = 21.936998
+        kld=0.452366, cd=0.341524, en_pos=29.917833, en_neg=29.576309, pcd=True, subgoal_reg=0.016685031354427338, time: 152.964634sec 
+epoch39, step127799: dest_loss=5.341495, future_loss=5.424347, total_loss = 16.326401
+        kld=0.455299, cd=-0.068869, en_pos=30.049631, en_neg=30.118500, pcd=True, subgoal_reg=0.014753354713320732, time: 208.193364sec 
+Langevin prior   1/ 20: energy=1896.178
+Langevin prior   6/ 20: energy=1885.128
+Langevin prior  11/ 20: energy=1882.103
+Langevin prior  16/ 20: energy=1798.918
+Langevin prior  20/ 20: energy=1834.508
+epoch39, step128399: dest_loss=3.982312, future_loss=4.046103, total_loss = 11.799366
+        kld=0.455921, cd=-0.500454, en_pos=28.908882, en_neg=29.409336, pcd=True, subgoal_reg=0.015539554879069328, time: 264.943874sec 
+finished epoch 39: loss:16.663, lr: 0.000008, time: 294.550385sec
+eval as epoch:39
+minADE:1.966713, minFDE:4.388112, MissRate:0.732215
+start training at epoch:40
+epoch40, step128999: dest_loss=5.248377, future_loss=5.420156, total_loss = 15.394943
+        kld=0.452097, cd=-0.810791, en_pos=28.994747, en_neg=29.805538, pcd=True, subgoal_reg=0.017566446214914322, time: 26.307809sec 
+Langevin prior   1/ 20: energy=1902.941
+Langevin prior   6/ 20: energy=1868.249
+Langevin prior  11/ 20: energy=1900.741
+Langevin prior  16/ 20: energy=1874.686
+Langevin prior  20/ 20: energy=1925.294
+epoch40, step129599: dest_loss=7.053956, future_loss=7.330041, total_loss = 20.768814
+        kld=0.452591, cd=-0.958004, en_pos=29.258400, en_neg=30.216404, pcd=True, subgoal_reg=0.017309151589870453, time: 81.683400sec 
+Langevin prior   1/ 20: energy=1848.885
+Langevin prior   6/ 20: energy=1882.349
+Langevin prior  11/ 20: energy=1888.985
+Langevin prior  16/ 20: energy=1873.283
+Langevin prior  20/ 20: energy=1826.266
+epoch40, step130199: dest_loss=7.857789, future_loss=8.169872, total_loss = 23.112249
+        kld=0.452538, cd=-1.057550, en_pos=29.077011, en_neg=30.134562, pcd=True, subgoal_reg=0.012827004306018353, time: 138.123049sec 
+epoch40, step130799: dest_loss=4.120645, future_loss=4.207106, total_loss = 12.248101
+        kld=0.453444, cd=-0.486265, en_pos=29.060320, en_neg=29.546585, pcd=True, subgoal_reg=0.013905341736972332, time: 193.217025sec 
+Langevin prior   1/ 20: energy=1891.547
+Langevin prior   6/ 20: energy=1871.408
+Langevin prior  11/ 20: energy=1859.728
+Langevin prior  16/ 20: energy=1877.712
+Langevin prior  20/ 20: energy=1875.405
+epoch40, step131399: dest_loss=5.311620, future_loss=5.336953, total_loss = 16.713333
+        kld=0.453184, cd=0.471632, en_pos=29.627039, en_neg=29.155407, pcd=True, subgoal_reg=0.009597847238183022, time: 249.252814sec 
+finished epoch 40: loss:16.592, lr: 0.000008, time: 299.652686sec
+eval as epoch:40
+minADE:1.964799, minFDE:4.380837, MissRate:0.731126
+start training at epoch:41
+epoch41, step131999: dest_loss=5.466373, future_loss=5.721567, total_loss = 16.158070
+        kld=0.453144, cd=-0.778809, en_pos=28.972015, en_neg=29.750824, pcd=True, subgoal_reg=0.010676784440875053, time: 6.034026sec 
+Langevin prior   1/ 20: energy=1853.583
+Langevin prior   6/ 20: energy=1886.358
+Langevin prior  11/ 20: energy=1890.784
+Langevin prior  16/ 20: energy=1889.498
+Langevin prior  20/ 20: energy=1915.378
+epoch41, step132599: dest_loss=2.968550, future_loss=2.942420, total_loss = 9.481328
+        kld=0.451967, cd=0.318907, en_pos=29.907495, en_neg=29.588589, pcd=True, subgoal_reg=0.011720416136085987, time: 61.668387sec 
+Langevin prior   1/ 20: energy=1842.827
+Langevin prior   6/ 20: energy=1829.313
+Langevin prior  11/ 20: energy=1909.201
+Langevin prior  16/ 20: energy=1913.292
+Langevin prior  20/ 20: energy=1833.203
+epoch41, step133199: dest_loss=6.587435, future_loss=6.790078, total_loss = 19.984514
+        kld=0.453045, cd=-0.268936, en_pos=29.370785, en_neg=29.639721, pcd=True, subgoal_reg=0.016676481813192368, time: 118.168716sec 
+epoch41, step133799: dest_loss=5.695379, future_loss=5.831320, total_loss = 16.929800
+        kld=0.454044, cd=-0.574652, en_pos=29.499878, en_neg=30.074530, pcd=True, subgoal_reg=0.009946083649992943, time: 173.630664sec 
+Langevin prior   1/ 20: energy=1847.217
+Langevin prior   6/ 20: energy=1888.147
+Langevin prior  11/ 20: energy=1916.895
+Langevin prior  16/ 20: energy=1964.120
+Langevin prior  20/ 20: energy=1940.053
+epoch41, step134399: dest_loss=6.315035, future_loss=6.471780, total_loss = 17.924862
+        kld=0.452984, cd=-1.464348, en_pos=29.014282, en_neg=30.478630, pcd=True, subgoal_reg=0.015570370480418205, time: 229.986233sec 
+epoch41, step134999: dest_loss=6.898297, future_loss=7.064805, total_loss = 21.826111
+        kld=0.452900, cd=0.676283, en_pos=30.122875, en_neg=29.446592, pcd=True, subgoal_reg=0.016689781099557877, time: 284.732843sec 
+Langevin prior   1/ 20: energy=1949.285
+Langevin prior   6/ 20: energy=1882.908
+Langevin prior  11/ 20: energy=1878.032
+Langevin prior  16/ 20: energy=1845.568
+Langevin prior  20/ 20: energy=1891.884
+finished epoch 41: loss:16.597, lr: 0.000008, time: 299.973162sec
+eval as epoch:41
+minADE:1.957185, minFDE:4.371117, MissRate:0.730569
+start training at epoch:42
+epoch42, step135599: dest_loss=4.401192, future_loss=4.564248, total_loss = 14.134668
+        kld=0.452435, cd=0.482616, en_pos=29.712086, en_neg=29.229469, pcd=True, subgoal_reg=0.013959914445877075, time: 40.677677sec 
+Langevin prior   1/ 20: energy=1868.118
+Langevin prior   6/ 20: energy=1885.576
+Langevin prior  11/ 20: energy=1866.815
+Langevin prior  16/ 20: energy=1872.473
+Langevin prior  20/ 20: energy=1882.501
+epoch42, step136199: dest_loss=3.752352, future_loss=3.789259, total_loss = 12.088283
+        kld=0.451962, cd=0.513039, en_pos=29.843491, en_neg=29.330452, pcd=True, subgoal_reg=0.010103206150233746, time: 96.370156sec 
+epoch42, step136799: dest_loss=3.389711, future_loss=3.521786, total_loss = 11.010048
+        kld=0.451712, cd=0.428509, en_pos=29.712139, en_neg=29.283630, pcd=True, subgoal_reg=0.009304768405854702, time: 152.013048sec 
+Langevin prior   1/ 20: energy=1911.709
+Langevin prior   6/ 20: energy=1825.567
+Langevin prior  11/ 20: energy=1829.589
+Langevin prior  16/ 20: energy=1846.338
+Langevin prior  20/ 20: energy=1880.208
+epoch42, step137399: dest_loss=3.822870, future_loss=3.920434, total_loss = 11.866820
+        kld=0.453547, cd=0.016363, en_pos=29.676311, en_neg=29.659948, pcd=True, subgoal_reg=0.012154672294855118, time: 207.409940sec 
+epoch42, step137999: dest_loss=5.921491, future_loss=6.260621, total_loss = 17.696953
+        kld=0.451939, cd=-0.693502, en_pos=28.950209, en_neg=29.643711, pcd=True, subgoal_reg=0.015688132494688034, time: 262.003557sec 
+Langevin prior   1/ 20: energy=1899.334
+Langevin prior   6/ 20: energy=1897.507
+Langevin prior  11/ 20: energy=1875.699
+Langevin prior  16/ 20: energy=1885.804
+Langevin prior  20/ 20: energy=1904.099
+finished epoch 42: loss:16.584, lr: 0.000008, time: 296.608316sec
+eval as epoch:42
+minADE:1.949317, minFDE:4.357233, MissRate:0.727300
+model saved to trained_params_ebm/epoch_42.valminade_1.949.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:43
+epoch43, step138599: dest_loss=3.126320, future_loss=3.113478, total_loss = 10.687990
+        kld=0.452915, cd=1.028034, en_pos=30.139629, en_neg=29.111595, pcd=True, subgoal_reg=0.022088780999183655, time: 20.760725sec 
+Langevin prior   1/ 20: energy=1895.247
+Langevin prior   6/ 20: energy=1959.617
+Langevin prior  11/ 20: energy=1863.432
+Langevin prior  16/ 20: energy=1918.951
+Langevin prior  20/ 20: energy=1916.681
+epoch43, step139199: dest_loss=4.513544, future_loss=4.396469, total_loss = 14.110231
+        kld=0.453619, cd=0.393993, en_pos=30.091553, en_neg=29.697559, pcd=True, subgoal_reg=0.020509831607341766, time: 76.658212sec 
+epoch43, step139799: dest_loss=6.892051, future_loss=7.039036, total_loss = 19.722473
+        kld=0.453922, cd=-1.384548, en_pos=28.904415, en_neg=30.288963, pcd=True, subgoal_reg=0.011527759954333305, time: 131.351755sec 
+Langevin prior   1/ 20: energy=1900.002
+Langevin prior   6/ 20: energy=1870.066
+Langevin prior  11/ 20: energy=1887.954
+Langevin prior  16/ 20: energy=1893.520
+Langevin prior  20/ 20: energy=1878.982
+epoch43, step140399: dest_loss=6.353219, future_loss=6.524456, total_loss = 20.710119
+        kld=0.453499, cd=1.191324, en_pos=30.047348, en_neg=28.856024, pcd=True, subgoal_reg=0.015803901478648186, time: 186.970901sec 
+epoch43, step140999: dest_loss=7.460310, future_loss=7.538375, total_loss = 22.793331
+        kld=0.452459, cd=0.038137, en_pos=29.080030, en_neg=29.041893, pcd=True, subgoal_reg=0.024722157046198845, time: 243.135605sec 
+Langevin prior   1/ 20: energy=1844.621
+Langevin prior   6/ 20: energy=1887.324
+Langevin prior  11/ 20: energy=1934.260
+Langevin prior  16/ 20: energy=1921.504
+Langevin prior  20/ 20: energy=1908.010
+finished epoch 43: loss:16.591, lr: 0.000008, time: 298.114078sec
+eval as epoch:43
+minADE:1.959850, minFDE:4.377484, MissRate:0.732646
+start training at epoch:44
+epoch44, step141599: dest_loss=4.044560, future_loss=4.075481, total_loss = 13.613409
+        kld=0.451843, cd=1.160309, en_pos=29.577511, en_neg=28.417202, pcd=True, subgoal_reg=0.017393261194229126, time: 0.644078sec 
+Langevin prior   1/ 20: energy=1902.467
+Langevin prior   6/ 20: energy=1878.800
+Langevin prior  11/ 20: energy=1813.566
+Langevin prior  16/ 20: energy=1790.313
+Langevin prior  20/ 20: energy=1923.503
+epoch44, step142199: dest_loss=5.450220, future_loss=5.368826, total_loss = 15.414478
+        kld=0.450859, cd=-1.147932, en_pos=28.639170, en_neg=29.787102, pcd=True, subgoal_reg=0.022629212588071823, time: 54.897776sec 
+epoch44, step142799: dest_loss=5.227310, future_loss=5.318384, total_loss = 16.137150
+        kld=0.451151, cd=0.077108, en_pos=29.500277, en_neg=29.423168, pcd=True, subgoal_reg=0.01634659618139267, time: 109.857694sec 
+Langevin prior   1/ 20: energy=1868.839
+Langevin prior   6/ 20: energy=1883.707
+Langevin prior  11/ 20: energy=1939.823
+Langevin prior  16/ 20: energy=1924.116
+Langevin prior  20/ 20: energy=1949.316
+epoch44, step143399: dest_loss=2.712859, future_loss=2.806109, total_loss = 8.128900
+        kld=0.452961, cd=-0.384735, en_pos=29.662399, en_neg=30.047134, pcd=True, subgoal_reg=0.010030806064605713, time: 165.293828sec 
+epoch44, step143999: dest_loss=3.486136, future_loss=3.587495, total_loss = 10.543932
+        kld=0.453972, cd=-0.301218, en_pos=29.511942, en_neg=29.813160, pcd=True, subgoal_reg=0.013000953942537308, time: 220.298819sec 
+Langevin prior   1/ 20: energy=1817.467
+Langevin prior   6/ 20: energy=1881.185
+Langevin prior  11/ 20: energy=1950.784
+Langevin prior  16/ 20: energy=1921.534
+Langevin prior  20/ 20: energy=1912.152
+epoch44, step144599: dest_loss=4.007491, future_loss=3.874330, total_loss = 13.131206
+        kld=0.452032, cd=0.956039, en_pos=30.194508, en_neg=29.238468, pcd=True, subgoal_reg=0.014636484906077385, time: 275.814220sec 
+finished epoch 44: loss:16.585, lr: 0.000008, time: 295.542597sec
+eval as epoch:44
+minADE:1.959024, minFDE:4.372467, MissRate:0.731835
+start training at epoch:45
+Langevin prior   1/ 20: energy=1858.362
+Langevin prior   6/ 20: energy=1839.321
+Langevin prior  11/ 20: energy=1881.775
+Langevin prior  16/ 20: energy=1858.233
+Langevin prior  20/ 20: energy=1899.257
+epoch45, step145199: dest_loss=6.042551, future_loss=6.177723, total_loss = 18.286919
+        kld=0.454214, cd=-0.261108, en_pos=28.906548, en_neg=29.167656, pcd=True, subgoal_reg=0.012674308381974697, time: 35.687272sec 
+epoch45, step145799: dest_loss=3.629928, future_loss=3.758204, total_loss = 13.271206
+        kld=0.452290, cd=1.968201, en_pos=30.899271, en_neg=28.931070, pcd=True, subgoal_reg=0.013572422787547112, time: 92.958429sec 
+Langevin prior   1/ 20: energy=1864.342
+Langevin prior   6/ 20: energy=1925.319
+Langevin prior  11/ 20: energy=1939.055
+Langevin prior  16/ 20: energy=1957.457
+Langevin prior  20/ 20: energy=1925.020
+epoch45, step146399: dest_loss=5.798114, future_loss=5.945984, total_loss = 17.896793
+        kld=0.452379, cd=0.064482, en_pos=29.534250, en_neg=29.469769, pcd=True, subgoal_reg=0.01867208071053028, time: 148.210774sec 
+epoch45, step146999: dest_loss=4.767720, future_loss=4.671550, total_loss = 14.551295
+        kld=0.451895, cd=0.060509, en_pos=30.322559, en_neg=30.262051, pcd=True, subgoal_reg=0.0126591632142663, time: 202.867973sec 
+Langevin prior   1/ 20: energy=1904.849
+Langevin prior   6/ 20: energy=1859.918
+Langevin prior  11/ 20: energy=1856.464
+Langevin prior  16/ 20: energy=1869.989
+Langevin prior  20/ 20: energy=1876.099
+epoch45, step147599: dest_loss=6.757707, future_loss=6.971224, total_loss = 20.559458
+        kld=0.451996, cd=-0.216450, en_pos=29.052155, en_neg=29.268604, pcd=True, subgoal_reg=0.01807185634970665, time: 257.884545sec 
+Langevin prior   1/ 20: energy=1878.470
+Langevin prior   6/ 20: energy=1857.346
+Langevin prior  11/ 20: energy=1927.287
+Langevin prior  16/ 20: energy=1903.866
+Langevin prior  20/ 20: energy=1920.189
+finished epoch 45: loss:16.576, lr: 0.000008, time: 297.402930sec
+eval as epoch:45
+minADE:1.962089, minFDE:4.371896, MissRate:0.730999
+start training at epoch:46
+epoch46, step148199: dest_loss=5.125813, future_loss=5.212772, total_loss = 16.730350
+        kld=0.453707, cd=0.975077, en_pos=30.024996, en_neg=29.049919, pcd=True, subgoal_reg=0.01865178346633911, time: 15.572869sec 
+epoch46, step148799: dest_loss=3.829719, future_loss=3.878461, total_loss = 10.642102
+        kld=0.451986, cd=-1.180256, en_pos=29.383827, en_neg=30.564083, pcd=True, subgoal_reg=0.01326763816177845, time: 70.357016sec 
+Langevin prior   1/ 20: energy=1857.302
+Langevin prior   6/ 20: energy=1884.329
+Langevin prior  11/ 20: energy=1949.729
+Langevin prior  16/ 20: energy=1920.690
+Langevin prior  20/ 20: energy=1895.377
+epoch46, step149399: dest_loss=5.052942, future_loss=5.149582, total_loss = 15.527119
+        kld=0.453543, cd=-0.013779, en_pos=29.869072, en_neg=29.882851, pcd=True, subgoal_reg=0.013305645436048508, time: 125.283691sec 
+epoch46, step149999: dest_loss=2.386041, future_loss=2.362268, total_loss = 7.541951
+        kld=0.453594, cd=0.127165, en_pos=29.408140, en_neg=29.280975, pcd=True, subgoal_reg=0.008278826251626015, time: 180.595368sec 
+Langevin prior   1/ 20: energy=1860.493
+Langevin prior   6/ 20: energy=1841.408
+Langevin prior  11/ 20: energy=1847.439
+Langevin prior  16/ 20: energy=1939.561
+Langevin prior  20/ 20: energy=1879.991
+epoch46, step150599: dest_loss=3.221281, future_loss=3.293782, total_loss = 10.459588
+        kld=0.452784, cd=0.436338, en_pos=29.953581, en_neg=29.517242, pcd=True, subgoal_reg=0.015235607512295246, time: 235.631966sec 
+Langevin prior   1/ 20: energy=1867.176
+Langevin prior   6/ 20: energy=1881.544
+Langevin prior  11/ 20: energy=1863.509
+Langevin prior  16/ 20: energy=1840.740
+Langevin prior  20/ 20: energy=1823.693
+epoch46, step151199: dest_loss=7.482792, future_loss=7.603669, total_loss = 23.553616
+        kld=0.452955, cd=0.702402, en_pos=29.547266, en_neg=28.844864, pcd=True, subgoal_reg=0.010189726017415524, time: 291.133382sec 
+finished epoch 46: loss:16.569, lr: 0.000008, time: 295.364564sec
+eval as epoch:46
+minADE:1.961337, minFDE:4.377468, MissRate:0.732621
+start training at epoch:47
+epoch47, step151799: dest_loss=5.314885, future_loss=5.464054, total_loss = 14.214401
+        kld=0.453903, cd=-2.168932, en_pos=28.862991, en_neg=31.031923, pcd=True, subgoal_reg=0.01716773957014084, time: 52.328494sec 
+Langevin prior   1/ 20: energy=1887.285
+Langevin prior   6/ 20: energy=1891.939
+Langevin prior  11/ 20: energy=1866.648
+Langevin prior  16/ 20: energy=1896.296
+Langevin prior  20/ 20: energy=1909.439
+epoch47, step152399: dest_loss=5.541983, future_loss=5.549243, total_loss = 18.131748
+        kld=0.453251, cd=1.215431, en_pos=30.353659, en_neg=29.138227, pcd=True, subgoal_reg=0.011158378794789314, time: 108.054192sec 
+epoch47, step152999: dest_loss=6.383830, future_loss=6.722262, total_loss = 21.331461
+        kld=0.452705, cd=1.551367, en_pos=29.485186, en_neg=27.933819, pcd=True, subgoal_reg=0.018549423664808273, time: 163.125725sec 
+Langevin prior   1/ 20: energy=1962.904
+Langevin prior   6/ 20: energy=1937.898
+Langevin prior  11/ 20: energy=1907.793
+Langevin prior  16/ 20: energy=1939.623
+Langevin prior  20/ 20: energy=1860.113
+epoch47, step153599: dest_loss=5.327080, future_loss=5.361185, total_loss = 14.817357
+        kld=0.454618, cd=-1.486561, en_pos=28.579510, en_neg=30.066071, pcd=True, subgoal_reg=0.015801748260855675, time: 217.592593sec 
+Langevin prior   1/ 20: energy=1863.996
+Langevin prior   6/ 20: energy=1856.042
+Langevin prior  11/ 20: energy=1901.662
+Langevin prior  16/ 20: energy=1862.303
+Langevin prior  20/ 20: energy=1866.298
+epoch47, step154199: dest_loss=4.517801, future_loss=4.688046, total_loss = 14.813295
+        kld=0.453537, cd=0.802017, en_pos=29.688297, en_neg=28.886280, pcd=True, subgoal_reg=0.015507430769503117, time: 273.573248sec 
+finished epoch 47: loss:16.582, lr: 0.000008, time: 298.126485sec
+eval as epoch:47
+minADE:1.948937, minFDE:4.357112, MissRate:0.727579
+model saved to trained_params_ebm/epoch_47.valminade_1.949.200630.epochs50.lr_decay0.3.decay_every10.lr0.001.xkhuang.pth
+start training at epoch:48
+epoch48, step154799: dest_loss=5.188383, future_loss=5.276802, total_loss = 16.522909
+        kld=0.452982, cd=0.583612, en_pos=30.304585, en_neg=29.720972, pcd=True, subgoal_reg=0.013938178308308125, time: 29.601067sec 
+Langevin prior   1/ 20: energy=1909.075
+Langevin prior   6/ 20: energy=1821.427
+Langevin prior  11/ 20: energy=1881.416
+Langevin prior  16/ 20: energy=1937.528
+Langevin prior  20/ 20: energy=1965.796
+epoch48, step155399: dest_loss=6.689172, future_loss=6.930688, total_loss = 20.473492
+        kld=0.452744, cd=-0.130936, en_pos=29.632135, en_neg=29.763071, pcd=True, subgoal_reg=0.02374778315424919, time: 83.850215sec 
+epoch48, step155999: dest_loss=6.739228, future_loss=7.019118, total_loss = 18.549747
+        kld=0.452112, cd=-2.233217, en_pos=27.804771, en_neg=30.037989, pcd=True, subgoal_reg=0.014123169705271721, time: 138.062182sec 
+Langevin prior   1/ 20: energy=1850.369
+Langevin prior   6/ 20: energy=1872.275
+Langevin prior  11/ 20: energy=1832.673
+Langevin prior  16/ 20: energy=1885.806
+Langevin prior  20/ 20: energy=1859.739
+epoch48, step156599: dest_loss=8.493205, future_loss=8.702313, total_loss = 26.717506
+        kld=0.451557, cd=0.732655, en_pos=30.299713, en_neg=29.567059, pcd=True, subgoal_reg=0.025193072855472565, time: 193.801884sec 
+Langevin prior   1/ 20: energy=1815.203
+Langevin prior   6/ 20: energy=1858.522
+Langevin prior  11/ 20: energy=1875.415
+Langevin prior  16/ 20: energy=1843.903
+Langevin prior  20/ 20: energy=1825.723
+epoch48, step157199: dest_loss=4.311234, future_loss=4.503491, total_loss = 14.268126
+        kld=0.451717, cd=0.859259, en_pos=30.951242, en_neg=30.091984, pcd=True, subgoal_reg=0.011877316050231457, time: 248.203219sec 
+finished epoch 48: loss:16.555, lr: 0.000008, time: 293.710204sec
+eval as epoch:48
+minADE:1.954318, minFDE:4.362067, MissRate:0.728263
+start training at epoch:49
+epoch49, step157799: dest_loss=5.969333, future_loss=6.101706, total_loss = 18.942436
+        kld=0.454042, cd=0.614714, en_pos=30.151554, en_neg=29.536840, pcd=True, subgoal_reg=0.014926038682460785, time: 10.633279sec 
+Langevin prior   1/ 20: energy=1860.230
+Langevin prior   6/ 20: energy=1909.878
+Langevin prior  11/ 20: energy=1885.897
+Langevin prior  16/ 20: energy=1860.396
+Langevin prior  20/ 20: energy=1850.591
+epoch49, step158399: dest_loss=5.196368, future_loss=5.250170, total_loss = 15.261339
+        kld=0.453287, cd=-0.667376, en_pos=29.209227, en_neg=29.876602, pcd=True, subgoal_reg=0.01383712887763977, time: 64.337750sec 
+epoch49, step158999: dest_loss=3.690630, future_loss=3.861141, total_loss = 12.767918
+        kld=0.452295, cd=1.245625, en_pos=30.647552, en_neg=29.401928, pcd=True, subgoal_reg=0.008514158427715302, time: 119.090220sec 
+Langevin prior   1/ 20: energy=1926.812
+Langevin prior   6/ 20: energy=1843.356
+Langevin prior  11/ 20: energy=1889.768
+Langevin prior  16/ 20: energy=1883.482
+Langevin prior  20/ 20: energy=1860.809
+epoch49, step159599: dest_loss=3.726949, future_loss=3.906272, total_loss = 12.522314
+        kld=0.452162, cd=0.878771, en_pos=29.846968, en_neg=28.968197, pcd=True, subgoal_reg=0.012074907310307026, time: 174.313060sec 
+Langevin prior   1/ 20: energy=1905.416
+Langevin prior   6/ 20: energy=1909.959
+Langevin prior  11/ 20: energy=1950.509
+Langevin prior  16/ 20: energy=1978.896
+Langevin prior  20/ 20: energy=1934.464
+epoch49, step160199: dest_loss=6.504132, future_loss=6.707702, total_loss = 20.313540
+        kld=0.451508, cd=0.308414, en_pos=29.969223, en_neg=29.660809, pcd=True, subgoal_reg=0.01825397089123726, time: 229.558711sec 
+epoch49, step160799: dest_loss=3.715186, future_loss=3.713807, total_loss = 11.386363
+        kld=0.453388, cd=-0.042957, en_pos=29.992403, en_neg=30.035360, pcd=True, subgoal_reg=0.013109618797898293, time: 285.669788sec 
+finished epoch 49: loss:16.576, lr: 0.000002, time: 295.232519sec
+eval as epoch:49
+minADE:1.950851, minFDE:4.358665, MissRate:0.728010

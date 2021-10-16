@@ -1,0 +1,36 @@
+nohup: ignoring input
+folder: val
+  0%|          | 0/395 [00:00<?, ?it/s]  4%|▍         | 16/395 [00:00<00:07, 50.60it/s]  8%|▊         | 32/395 [00:14<03:08,  1.93it/s] 12%|█▏        | 48/395 [00:59<09:09,  1.58s/it] 16%|█▌        | 64/395 [01:44<11:25,  2.07s/it] 20%|██        | 80/395 [02:32<12:31,  2.39s/it] 24%|██▍       | 96/395 [03:18<12:44,  2.56s/it] 28%|██▊       | 112/395 [04:02<12:23,  2.63s/it] 32%|███▏      | 128/395 [04:47<11:57,  2.69s/it] 36%|███▋      | 144/395 [05:34<11:35,  2.77s/it] 41%|████      | 160/395 [06:20<10:57,  2.80s/it] 45%|████▍     | 176/395 [07:07<10:20,  2.83s/it] 49%|████▊     | 192/395 [07:54<09:41,  2.86s/it] 53%|█████▎    | 208/395 [08:40<08:55,  2.86s/it] 57%|█████▋    | 224/395 [09:25<08:08,  2.86s/it] 61%|██████    | 240/395 [10:12<07:26,  2.88s/it] 65%|██████▍   | 256/395 [10:58<06:39,  2.87s/it] 69%|██████▉   | 272/395 [11:45<05:57,  2.91s/it] 73%|███████▎  | 288/395 [12:30<05:08,  2.88s/it] 77%|███████▋  | 304/395 [13:17<04:21,  2.88s/it] 81%|████████  | 320/395 [14:04<03:38,  2.91s/it] 85%|████████▌ | 336/395 [14:51<02:52,  2.92s/it] 89%|████████▉ | 352/395 [15:37<02:04,  2.90s/it] 93%|█████████▎| 368/395 [16:25<01:19,  2.93s/it] 97%|█████████▋| 384/395 [17:11<00:32,  2.91s/it]100%|██████████| 395/395 [17:11<00:00,  2.61s/it]
+0it [00:00, ?it/s]395it [00:00, 16258.75it/s]
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
+/home/zk/gitcode/yet-another-vectornet/utils/feature_utils.py:206: RuntimeWarning: Mean of empty slice
+  col_mean = np.nanmean(lane_nd, axis=0)
